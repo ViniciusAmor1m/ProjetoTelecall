@@ -1,0 +1,1234 @@
+body{background-color: #efebeb;
+  transition: 0.4s;}
+  
+  input[type="checkbox"]{display: none;}
+  
+  .titletrocadecontraste{margin-left: 80%;
+  
+  max-width: 10%;}
+  
+  #titletrocadecontraste{margin-top: -50%;}
+  
+  .iconsdarklight{max-width: 2%;
+  margin-left: 41.6%;
+  margin-top: -2.9%;
+  height: 40px;}
+  /* dark theme */
+  
+  .dark, .dark header {
+    background-color: #263238;
+    color: #fff
+  }
+  
+  .dark .bi-sun{
+    display: none;
+  }
+  
+  .dark .bi-moon{
+    display: block;
+  }
+  
+  
+  .bi {font-size: 1.6rem;
+  cursor: pointer;
+  }
+  
+  .bi::after{content: "";
+    position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0%;
+  left: 41.6%;
+  bottom: 15px;
+  transition: 0.4s;
+  
+  }
+  
+  
+  .bi:hover::after{width: 1.7%;
+    box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+  }
+  
+  .bi-moon{
+    display: none;
+  }
+  
+
+
+
+
+
+.containerlogin{max-width: 100%;
+    width: 55%;
+    margin: 0 auto;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 550px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 23.5%;
+    margin-top: 8%;
+  }
+
+
+#name{max-width: 100%;
+    width: 65%;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: 1%;
+ 
+}
+  
+.namematerno{margin-left: 5%;}
+
+#namematerno{max-width: 100%;
+    width: 65%;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: 9%;
+  }
+  
+
+
+#datanascimento{max-width: 100%;
+    width: 65%;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: 1%;
+ }
+  
+
+
+#numcelular{max-width: 100%;
+    width: 65%;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: 1%;
+  }
+  
+
+
+#numfixo{max-width: 100%;
+    width: 65%;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: 1%;
+ 
+  }
+  
+
+#endereço{max-width: 100%;
+    width: 65%;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: 1%;
+  }
+  
+  
+
+
+  label {
+    display: block;
+    
+  }
+
+
+  #Enviar {
+    max-width: 100%;
+  width: 25%;
+  padding: 5px;
+background-color: rgb(86, 195, 242);
+margin-top: 4%;
+margin-left: 1%;
+border: none;
+border-radius: 25px;
+font-size: 0.9rem;
+color: #ffffff;
+text-align: center;}
+  
+
+  #Enviar:hover{background-color:rgb(247, 45, 45);
+    transition:background-color 0.3s;
+  }
+
+#Voltar{display: block;
+    background-color: rgb(86, 195, 242);
+    color: #fff;
+    padding: 4px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: -5.2%;
+    text-decoration: none;
+    margin-left: 30%;
+    width: 25%;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  #Voltaar{text-decoration: none;
+color: #ffffff;
+padding: 4px 50px;}
+  
+
+  #Voltar:hover{background-color:rgb(247, 45, 45);
+    transition:background-color 0.3s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .inputs{max-width: 75%;
+width: 75%;
+margin-left: 40%;}
+
+
+.nomeinput{margin-top: -8%;
+}
+
+#nomematerno{margin-left: 1%;}
+
+
+#namematerno{margin-left: 1.2%;}
+
+
+
+.imgregistro{margin-left: -79%;
+margin-top: -75%;}
+
+
+
+label{font-size: 1rem;}
+
+
+.containtitlecadastro{max-width: 75%;
+    margin-left: -2%;
+    margin-top: -35%;}
+
+
+#titlecadastro{margin-left: 50%;
+margin-top: -89%;}
+
+
+
+#descripitioncad{margin-top: 4%;
+margin-left: -55%;
+max-width: 40%;}
+
+
+#descriptioncadastro{margin-left: -56%;
+margin-top: 2%;}
+
+
+#toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(153, 33, 33);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#toast.show {
+  opacity: 1;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+#toast2 {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(32, 119, 35);
+  color: #efebeb;
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#toast2.show {
+  opacity: 1;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+/*Media Query Responsivo /*
+
+/* 480px - 768 px = tablet */
+@media (min-width: 480px) {
+  .containerlogin{ display: flex;
+    margin: 150px;
+    padding: 20px;
+    flex: 5;
+    flex-wrap: wrap;
+    justify-content: center;
+  max-width: 100%;
+  width: 435px;
+  height: 575px;
+  margin-left: -5%;
+margin-top: 20%;}
+
+
+  #titlecadastro{margin-top: -295%;
+    font-size: 1.2rem;
+    margin-left: -5%
+  }
+
+  .descripitioncadastro{display: none;}
+
+
+  #name{max-width: 100%;
+    width: 375px;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: -35%;
+ 
+}
+  
+#namematerno{max-width: 100%;
+  width: 375px;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: -35%;
+  }
+  
+
+
+#datanascimento{max-width: 100%;
+  width: 375px;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: -35%;
+ }
+  
+
+
+#numcelular{max-width: 100%;
+  width: 375px;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: -35%;
+  }
+  
+
+
+#numfixo{max-width: 100%;
+  width: 375px;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: -35%;
+ 
+  }
+  
+
+#endereço{max-width: 100%;
+  width: 375px;
+    padding: 5px;
+  border-radius: 15px;
+  margin-left: -35%;
+  }
+
+
+  #Enviar {
+    max-width: 100%;
+  width: 35%;
+  padding: 5px;
+background-color: rgb(86, 195, 242);
+margin-top: 12%;
+margin-left: -35%;
+border: none;
+border-radius: 25px;
+font-size: 0.9rem;
+color: #ffffff;
+text-align: center;}
+  
+
+#Voltar{max-width: 100%;
+  background-color: rgb(86, 195, 242);
+  color: #fff;
+  padding: 3px;
+  border: none;
+  border-radius: 25px;
+  margin-top: -11%;
+  text-decoration: none;
+  margin-left: 15%;
+  width: 50%;
+  color: #fbf4f4;
+  text-align: center;
+}
+
+#Voltaar{text-align: justify;
+max-width: 100%;}
+  
+
+
+.imgregistro{margin-left: -75%;
+  margin-top: -135%;
+max-width: 80%;
+max-height: 100%;
+}
+
+
+#imgregistro{display: none;
+}
+
+
+
+.modavoimg{max-width: 100%;
+max-height: 100%;
+width: 150px;}
+
+#modavoimg{margin-top: 320%;
+margin-left: -35%;
+width: 185px;}
+
+.footer {display: none;
+}
+.menu{position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(20, 150, 206);
+}
+
+nav ul {display: flex;
+list-style: none;
+align-items: center;
+height: 10px;
+margin-left: 12%;
+margin-top: -1.1%
+}
+
+nav li {margin-left: 8%;}
+
+nav a{text-decoration: none;
+color: #fff;}
+
+
+nav a:hover{color:rgb(65, 92, 92)}
+
+
+.btns{margin-left: 82%;
+margin-top: -1.6%;
+border: none;}
+
+button{ border: none;
+color: rgb(15, 16, 16);
+background-color: rgb(234, 239, 241);
+width: 33%;
+}
+
+#sairbtn{border-radius: 85px;}
+
+#sairbtn:hover{background-color:rgb(111, 176, 203);
+color:#f3eeee}
+
+.imglogotelecall1{
+width: 10%;
+margin-left: 5%;
+margin-top: 1.5%;}
+
+
+#imglogotelecall1{
+  width: 80%;
+margin-left: -10%;}
+  
+
+
+
+}
+
+  
+  /* 768px - 1024 px = Telas menores > laptops */
+  @media (min-width: 768px)
+  {
+      .containerlogin{ display: flex;
+        margin: 150px;
+        padding: 20px;
+        flex: 5;
+        flex-wrap: wrap;
+        justify-content: center;
+      max-width: 100%;
+      width: 435px;
+      height: 575px;
+      margin-left: 15%;
+    margin-top: 20%;}
+    
+    
+      #titlecadastro{margin-top: -285%;
+        font-size: 1.5rem;
+      }
+    
+      .descripitioncadastro{display: none;}
+    
+  
+      #name{max-width: 100%;
+        width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: -35%;
+     
+    }
+      
+    #namematerno{max-width: 100%;
+      width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: -35%;
+      }
+      
+    
+    
+    #datanascimento{max-width: 100%;
+      width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: -35%;
+     }
+      
+    
+    
+    #numcelular{max-width: 100%;
+      width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: -35%;
+      }
+      
+    
+    
+    #numfixo{max-width: 100%;
+      width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: -35%;
+     
+      }
+      
+    
+    #endereço{max-width: 100%;
+      width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: -35%;
+      }
+    
+    
+      #Enviar {
+        max-width: 100%;
+      width: 35%;
+      padding: 5px;
+    background-color: rgb(86, 195, 242);
+    margin-top: 12%;
+    margin-left: -35%;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-align: center;}
+      
+      
+    
+    
+    #Voltar{max-width: 100%;
+      background-color: rgb(86, 195, 242);
+      color: #fff;
+      padding: 3px;
+      border: none;
+      border-radius: 25px;
+      margin-top: -11%;
+      text-decoration: none;
+      margin-left: 15%;
+      width: 50%;
+      color: #fbf4f4;
+      text-align: center;
+    }
+    
+    #Voltaar{text-align: justify;
+    max-width: 100%;}
+      
+    
+    
+    .imgregistro{margin-left: -70%;
+      margin-top: -135%;
+    max-width: 80%;
+    max-height: 100%;}
+    
+    
+    #imgregistro{width: 250%;}
+    
+    
+    
+    .modavoimg{max-width: 100%;
+    max-height: 100%;
+    width: 250px;}
+    
+    #modavoimg{margin-top: 185%;
+    margin-left: -20%;}
+    
+    }
+  
+  
+  
+  
+  
+  /* 1024px - 1200px = desktop */
+  @media (min-width: 1024px) {
+      .containerlogin{ display: flex;
+          margin: 150px;
+          padding: 20px;
+          flex: 5;
+          flex-wrap: wrap;
+          justify-content: center;
+        max-width: 100%;
+        width: 675px;
+        height: 575px;
+        margin-left: 18%;
+      margin-top: 20%;}
+      
+      
+        #titlecadastro{margin-top: -165%;
+          font-size: 2rem;
+        }
+      
+        .descripitioncadastro{display: none;}
+      
+        #nome{margin-top: 7%;}
+
+
+
+        #name{max-width: 100%;
+          width: 85%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 1%;
+        margin-top: 1%;
+       
+      }
+        
+      #namematerno{max-width: 100%;
+          width: 85%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 2%;
+        }
+        
+      
+      
+      #datanascimento{max-width: 100%;
+          width: 85%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 1%;
+       }
+        
+      
+      
+      #numcelular{max-width: 100%;
+          width: 85%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 1%;
+        }
+        
+      
+      
+      #numfixo{max-width: 100%;
+          width: 85%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 1%;
+       
+        }
+        
+      
+      #endereço{max-width: 100%;
+          width: 85%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 1%;
+        }
+      
+      
+        #Enviar {
+          max-width: 100%;
+        width: 35%;
+        padding: 5px;
+      background-color: rgb(86, 195, 242);
+      margin-top: 12%;
+      margin-left: -3%;
+      border: none;
+      border-radius: 25px;
+      font-size: 0.9rem;
+      color: #ffffff;
+      text-align: center;}
+        
+      
+      
+      #Voltar{max-width: 100%;
+        background-color: rgb(86, 195, 242);
+        color: #fff;
+        padding: 3px;
+        border: none;
+        border-radius: 25px;
+        margin-top: -8%;
+        text-decoration: none;
+        margin-left: 35%;
+        width: 50%;
+        color: #fbf4f4;
+        text-align: center;
+      }
+      
+      #Voltaar{text-align: justify;
+      max-width: 100%;}
+        
+      
+      
+      .imgregistro{margin-left: -80%;
+        margin-top: -105%;
+    
+      max-width: 80%;
+      max-height: 100%;}
+      
+      
+      #imgregistro{width: 250%;
+      margin-bottom: -5%;}
+      
+      
+      
+      .modavoimg{max-width: 100%;
+      max-height: 100%;
+      width: 250px;}
+      
+      #modavoimg{margin-top: 55%;
+      margin-left: -20%;}
+      
+      
+    
+  
+  
+  /* 1200 e + telas maiores, tvs */
+  @media (min-width: 1200px) {
+      .containerlogin{ display: flex;
+          margin: 150px;
+          padding: 20px;
+          flex: 5;
+          flex-wrap: wrap;
+          justify-content: center;
+        max-width: 100%;
+        width: 675px;
+        height: 575px;
+        margin-left: 18%;
+      margin-top: 20%;}
+      
+      
+        #titlecadastro{margin-top: -285%;
+          margin-left: -25%;
+          font-size: 2rem;
+        }
+      
+        .descripitioncadastro{display: none;}
+      
+        #nome{margin-top: 7%;}
+
+
+
+        #name{max-width: 100%;
+          width: 375px;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: -35%;
+       
+      }
+        
+      #namematerno{max-width: 100%;
+        width: 375px;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: -35%;
+        }
+        
+      
+      
+      #datanascimento{max-width: 100%;
+        width: 375px;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: -35%;
+       }
+        
+      
+      
+      #numcelular{max-width: 100%;
+        width: 375px;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: -35%;
+        }
+        
+      
+      
+      #numfixo{max-width: 100%;
+        width: 375px;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: -35%;
+       
+        }
+        
+      
+      #endereço{max-width: 100%;
+        width: 375px;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: -35%;
+        }
+      
+      
+        #Enviar {
+          max-width: 100%;
+        width: 35%;
+        padding: 5px;
+      background-color: rgb(86, 195, 242);
+      margin-top: 12%;
+      margin-left: -35%;
+      border: none;
+      border-radius: 25px;
+      font-size: 0.9rem;
+      color: #ffffff;
+      text-align: center;}
+        
+      
+      
+      #Voltar{max-width: 100%;
+        background-color: rgb(86, 195, 242);
+        color: #fff;
+        padding: 3px;
+        border: none;
+        border-radius: 25px;
+        margin-top: -11%;
+        text-decoration: none;
+        margin-left: 7%;
+        width: 50%;
+        color: #fbf4f4;
+        text-align: center;
+      }
+      
+      #Voltaar{text-align: justify;
+      max-width: 100%;}
+        
+      
+      
+      .imgregistro{margin-left: -80%;
+        margin-top: -105%;
+    
+      max-width: 80%;
+      max-height: 100%;}
+      
+      
+      #imgregistro{width: 250%;
+      margin-bottom: -5%;}
+      
+      
+      
+      .modavoimg{max-width: 100%;
+      max-height: 100%;
+      width: 250px;}
+      
+      #modavoimg{margin-top: 135%;
+      margin-left: -20%;}
+    
+    
+  }
+  
+  
+    @media (min-width: 1366px){
+      .containerlogin{ display: flex;
+        margin: 150px;
+        padding: 20px;
+        flex: 5;
+        flex-wrap: wrap;
+        justify-content: center;
+      max-width: 100%;
+      width: 975px;
+      height: 775px;
+      margin-left: 15%;
+    margin-top: 8%;}
+    
+    
+      #titlecadastro{margin-top: -220%;
+        font-size: 2rem;
+      }
+    
+      .descripitioncadastro{display: none;}
+    
+      #nome{margin-top: 7%;}
+
+
+
+      #name{max-width: 100%;
+        width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: 0%;
+     
+    }
+      
+    #namematerno{max-width: 100%;
+      width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: 0%;
+      }
+      
+    
+    
+    #datanascimento{max-width: 100%;
+      width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: 0%;
+     }
+      
+    
+    
+    #numcelular{max-width: 100%;
+      width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: 0%;
+      }
+      
+    
+    
+    #numfixo{max-width: 100%;
+      width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: 0%;
+     
+      }
+      
+    
+    #endereço{max-width: 100%;
+      width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: 0%;
+      }
+
+    #EnderecoCompleto{max-width: 100%;
+      width: 375px;
+        padding: 5px;
+      border-radius: 15px;
+      margin-left: 0%;
+      }
+
+      #Rua{max-width: 100%;
+        width: 375px;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 0%;
+        }
+
+        #Bairro{max-width: 100%;
+          width: 375px;
+            padding: 5px;
+          border-radius: 15px;
+          margin-left: 0%;
+          }
+
+          #Cidade{max-width: 100%;
+            width: 375px;
+              padding: 5px;
+            border-radius: 15px;
+            margin-left: 0%;
+            }
+            #Estado{max-width: 100%;
+              width: 375px;
+                padding: 5px;
+              border-radius: 15px;
+              margin-left: 0%;
+              }
+
+
+
+     
+    
+    
+      #Enviar {
+        max-width: 100%;
+      width: 35%;
+      padding: 5px;
+    background-color: rgb(86, 195, 242);
+    margin-top: 12%;
+    margin-left: 0%;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-align: center;}
+      
+    
+    
+    #Voltar{max-width: 100%;
+      background-color: rgb(86, 195, 242);
+      color: #fff;
+      padding: 3px;
+      border: none;
+      border-radius: 25px;
+      margin-top: -9%;
+      text-decoration: none;
+      margin-left: 50%;
+      width: 50%;
+      color: #fbf4f4;
+      text-align: center;
+
+    }
+    
+    #Voltaar{text-align: justify;
+    max-width: 100%;}
+      
+    
+    
+    .imgregistro{margin-left: -110%;
+      margin-top: -200%;
+  
+    max-width: 65%;
+    max-height: 20%;
+    
+  }
+    
+    
+    #imgregistro{width: 180%;
+    margin-left: -20%;
+  display: block;
+margin-top: 30%;
+    }
+    
+    
+    
+    .modavoimg{max-width: 200%;
+    max-height: 100%;
+    width: 0px;
+
+margin-left: 75%;
+margin-top: 70%;
+}
+    
+    #modavoimg{margin-top: 65%;
+      margin-left: 10%;
+    width: 250px;
+  }
+  .iconsdarklight{max-width: 2%;
+    margin-left: 41.6%;
+    margin-top: -4.2%;
+    height: 48px;}
+    .bi::after{content: "";
+      position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0%;
+    left: 29.5%;
+    bottom: 26px;
+    transition: 0.3s;
+    
+    }
+    
+    
+    .bi:hover::after{width: 10%;
+      box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+    }
+
+
+}
+    
+
+    
+      @media (min-width: 1920px){
+        .containerlogin{ display: flex;
+          margin: 150px;
+          padding: 20px;
+          flex: 5;
+          flex-wrap: wrap;
+          justify-content: center;
+        max-width: 100%;
+        width: 975px;
+        height: 575px;
+        margin-left: 25%;
+      margin-top: 9%;}
+      
+      
+        #titlecadastro{margin-top: -185%;
+          font-size: 2rem;
+        }
+      
+        .descripitioncadastro{display: none;}
+      
+        #nome{margin-top: 7%;}
+  
+  
+  
+        #name{max-width: 100%;
+          width: 95%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 1%;
+        margin-top: 1%;
+       
+      }
+        
+      #namematerno{max-width: 100%;
+          width: 95%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 2%;
+        }
+        
+      
+      
+      #datanascimento{max-width: 100%;
+          width: 95%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 1%;
+       }
+        
+      
+      
+      #numcelular{max-width: 100%;
+          width: 95%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 1%;
+        }
+        
+      
+      
+      #numfixo{max-width: 100%;
+          width: 95%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 1%;
+       
+        }
+        
+      
+      #endereço{max-width: 100%;
+          width: 95%;
+          padding: 5px;
+        border-radius: 15px;
+        margin-left: 1%;
+        }
+      
+      
+        #Enviar {
+          max-width: 100%;
+        width: 35%;
+        padding: 5px;
+      background-color: rgb(86, 195, 242);
+      margin-top: 12%;
+      margin-left: -3%;
+      border: none;
+      border-radius: 25px;
+      font-size: 0.9rem;
+      color: #ffffff;
+      text-align: center;}
+        
+      
+      
+      #Voltar{max-width: 100%;
+        background-color: rgb(86, 195, 242);
+        color: #fff;
+        padding: 3px;
+        border: none;
+        border-radius: 25px;
+        margin-top: -8%;
+        text-decoration: none;
+        margin-left: 35%;
+        width: 50%;
+        color: #fbf4f4;
+        text-align: center;
+      }
+      
+      #Voltaar{text-align: justify;
+      max-width: 100%;}
+        
+      
+      
+      .imgregistro{margin-left: -185%;
+        margin-top: -135%;
+    
+      max-width: 80%;
+      max-height: 100%;}
+      
+      
+      #imgregistro{width: 150%;
+      margin-left: 75%;
+    margin-top: 20%;}
+      
+      
+      
+      .modavoimg{max-width: 100%;
+        width: 20%;
+        max-height: 20%;
+        height: 10px;
+      margin-left: 20%;
+      margin-top: -5%;
+     }
+  
+  #modavoimg{margin-top: 85%;
+  margin-left: -1%;
+width: 250%;}
+    }
+
+
+
+
+    ul li a{position: relative;
+      font-size: 50px;
+      letter-spacing: 0.5px;
+    padding: 0 10px;
+    }
+    
+      ul li a::after{content: "";
+      position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0%;
+    left: 5%;
+    bottom: 0px;
+    transition: 0.4s;
+    
+    }
+    
+    
+    ul li a:hover::after{width: 90%;
+      box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+    }
+    
+    
+  
+  }

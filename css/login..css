@@ -1,0 +1,887 @@
+body{background-color: #efebeb;
+transition: 0.4s;}
+
+input[type="checkbox"]{display: none;}
+
+.titletrocadecontraste{margin-left: 80%;
+
+max-width: 10%;}
+
+#titletrocadecontraste{margin-top: -50%;}
+
+.iconsdarklight{max-width: 2%;
+margin-left: 44.6%;
+margin-top: -4.2%;
+height: 48px;}
+/* dark theme */
+
+.dark, .dark header {
+  background-color: #263238;
+  color: #fff
+}
+
+.dark .bi-sun{
+  display: none;
+}
+
+.dark .bi-moon{
+  display: block;
+}
+
+
+.bi {font-size: 1.6rem;
+cursor: pointer;
+}
+
+.bi::after{content: "";
+  position: absolute;
+background-color: rgb(255, 255, 255);
+height: 3px;
+width: 0%;
+left: 33%;
+bottom: 26px;
+transition: 0.3s;
+
+}
+
+
+.bi:hover::after{width: 11%;
+  box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+}
+
+.bi-moon{
+  display: none;
+}
+
+
+
+
+
+.titleentrar {
+  margin-top: -33%;
+  margin-left: 2.5%;
+}
+
+
+#entrar {
+  font-size: 2.9rem;
+  color: rgb(57, 85, 85);
+  margin-top: 5%;
+}
+
+.containerlogin {
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 550px;
+  box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+  margin-left: 36%;
+  margin-top: 5%;
+}
+
+
+.subtitleserviços {
+  margin-top: 2%;
+  margin-left: 1.6%;
+}
+
+.descripitioncadastro {
+  margin-top: 2%;
+}
+
+
+#login {
+  max-width: 100%;
+  width: 65%;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 2%;
+  margin-top: 6%;
+}
+
+
+#senha {
+  max-width: 100%;
+  width: 65%;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 5%;
+  margin-left: 9.4%
+}
+
+
+#Enviar {
+  max-width: 100%;
+  width: 55%;
+  padding: 5px;
+  background-color: rgb(86, 195, 242);
+  margin-top: 16%;
+  margin-left: 25%;
+  border: none;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+#Enviar:hover {
+  background-color: rgb(247, 45, 45);
+  transition: background-color 0.3s;
+}
+
+
+
+.imgmodavo {
+  margin-left: 53%;
+  margin-top: -3%;
+}
+
+
+
+
+
+#imglogotelecall {
+  max-width: 100%;
+  width: 15%;
+  margin-left: 53%;
+  margin-top: -45%;
+}
+
+
+#toast {
+  position: fixed;
+  bottom: 105px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(153, 33, 33);
+  color: #efebeb;
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#toast.show {
+  opacity: 1;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+#toast2 {
+  position: fixed;
+  bottom: 105px;
+  left: 65%;
+  transform: translateX(-50%);
+  background-color: rgb(32, 119, 35);
+  color: #efebeb;
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#toast2.show {
+  opacity: 1;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+
+
+/*Media Query Responsivo /*
+
+/* 480px - 768 px = tablet */
+@media (min-width: 480px) {
+  .containerlogin {
+    display: flex;
+    margin: 150px;
+    padding: 0;
+    flex: 5;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    width: 350px;
+    height: 650px;
+    margin-left: 17%;
+    margin-top: 15%;
+  }
+
+  .conteúdologin {
+    display: none;
+  }
+
+#loginlabel{font-size: 1.9rem;
+margin-top: 12%;
+margin-left: 13%;}
+
+#senhalabel{font-size: 1.9rem;
+margin-top: -5%;
+margin-left: 13%;}
+
+  #login {
+    max-width: 100%;
+    width: 275px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: -5%;
+    margin-top: 5%;
+  }
+
+
+  #senha {
+    max-width: 100%;
+    width: 275px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: -5%;
+    margin-top: 2%;
+  }
+
+
+  .imgmodavo {
+    margin-left: 27%;
+    margin-top: -50%;
+    max-width: 70%;
+    width: -px;
+  }
+
+  #imgmodavo {
+    margin-top: -120%;
+    width: 5%;
+    margin-left: -12%;
+  }
+
+
+  #imglogotelecall {
+    max-width: 100%;
+    width: 20%;
+    margin-left: 45%;
+    margin-top: -1%;
+  }
+
+  .imglogin {
+    max-width: 100%;
+    height: 300px;
+    width: 28%;
+    margin-left: 3%;
+    margin-top: -25%;
+  }
+
+  #imglogin {display: none;
+    margin-top: -18%;
+    width: 105%;
+  }
+
+  .imglogin2 {
+    max-width: 100%;
+    height: 300px;
+    width: 28%;
+    margin-left: 66%;
+    margin-top: -16%;
+  }
+
+  #imglogin2 {
+    margin-top: -2%;
+    width: 80%;
+    display: none;
+  }
+
+  .datadenascimento{height: 2px;
+  width: 2%;}
+
+  .imgmodavo{height: 20px;
+  margin-top: 50%;}
+
+}
+
+
+
+
+/* 768px - 1024 px = Telas menores > laptops */
+@media (min-width: 768px) {
+
+  .containerlogin {
+    display: flex;
+    margin: 150px;
+    padding: 0;
+    flex: 5;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    width: 350px;
+    height: 750px;
+    margin-left: 30%;
+    margin-top: 8%;
+  }
+
+  .conteúdologin {
+    display: none;
+  }
+
+  #login {
+    max-width: 100%;
+    width: 65%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 8%;
+    margin-top: 28%;
+  }
+
+
+  #senha {
+    max-width: 100%;
+    width: 65%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 7%;
+    margin-top: 6%;
+  }
+
+.modavoimg{width: 5px;
+display: none;}
+  .imgmodavo {
+    margin-left: 27%;
+    margin-top: -50%;
+    max-width: 100%;
+    width: 20%;
+  }
+
+  #imgmodavo {
+    margin-top: 25%;
+    margin-left: 42%;
+  }
+
+
+  #imglogotelecall {
+    max-width: 100%;
+    width: 15%;
+    margin-left: 45%;
+    margin-top: 5%;
+  }
+
+.datadenascimento{width: 5px;}
+
+
+
+}
+
+
+
+
+
+/* 1024px - 1200px = desktop */
+@media (min-width: 1024px) {
+  .containerlogin {
+    display: flex;
+    margin: 150px;
+    padding: 0;
+    flex: 5;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    width: 650px;
+    margin-left: 6%;
+    margin-top: 5%;
+  }
+
+  .conteúdologin {
+    display: none;
+  }
+
+
+
+
+  #login {
+    max-width: 100%;
+    width: 105%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 6%;
+    margin-top: 2%;
+  }
+
+
+  #senha {
+    max-width: 100%;
+    width: 105%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 7%;
+    margin-top: 2%;
+  }
+
+
+  .imgmodavo {
+    margin-left: 12%;
+    margin-top: -52%;
+    max-width: 100%;
+    width: 23%;
+  }
+
+  #imgmodavo {
+    margin-top: 75%;
+    margin-left: 25%;
+  }
+
+
+  #imglogotelecall {
+    max-width: 100%;
+    width: 15%;
+    margin-left: 29%;
+    margin-top: 5%;
+  }
+
+}
+
+
+
+/* 1200 e + telas maiores, tvs */
+@media (min-width: 1200px) {
+  .containerlogin {
+    display: flex;
+    margin: 150px;
+    padding: 0;
+    flex: 5;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    width: 775px;
+    margin-left: 10%;
+    margin-top: 4%;
+  }
+
+  .conteúdologin {
+    display: none;
+  }
+
+  #loginlabel {
+    margin-top: 18%;
+    margin-left: 15%;
+    font-size: 1.6rem;
+  }
+
+  #senhalabel {
+    margin-top: 2%;
+    margin-left: 15%;
+    font-size: 1.6rem;
+  }
+
+  #login {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 8%;
+    margin-top: 2%;
+  }
+
+
+  #senha {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 8%;
+    margin-top: 2%;
+  }
+
+
+  .imgmodavo {
+    margin-left: 31%;
+    margin-top: -35%;
+    max-width: 100%;
+    width: 25%;
+    height: 50px;
+  }
+
+  #imgmodavo {
+    margin-top: 2%;
+    max-width: 100%;
+    margin-left: 5%;
+    width: 100%;
+  }
+
+
+
+  #imglogotelecall {
+    max-width: 100%;
+    width: 15%;
+    margin-left: 35%;
+    margin-top: 5%;
+  }
+  .footer {
+    margin-top: 28.2%;
+    background-color: #0b0b0b;
+    color: #f3efef;
+   
+    text-align: center;
+    width: 100%
+  }
+
+}
+
+
+
+@media (min-width: 1366px) {
+  .containerlogin {
+    display: flex;
+    margin: 150px;
+    padding: 0;
+    flex: 5;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    width: 895px;
+    height: 650px;
+    
+    margin-left: 32%;
+    margin-top: 10%;
+    border-radius: 75px;
+  }
+
+  .conteúdologin {
+    display: none;
+  }
+
+  #Enviar {
+    max-width: 100%;
+    width: 200px;
+    padding: 5px;
+    background-color: rgb(86, 195, 242);
+    margin-top: -5%;
+    margin-left: 0%;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-top: 7%;
+  }
+
+  #loginlabel {
+    margin-top: 18%;
+    margin-left: 15%;
+    font-size: 1.6rem;
+  }
+
+  #senhalabel {
+    margin-top: 2%;
+    margin-left: 15%;
+    font-size: 1.6rem;
+  }
+
+  #login {
+    max-width: 100%;
+    width: 475px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: -28%;
+    margin-top: 2%;
+  }
+
+
+  #senha {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: -28%;
+    margin-top: 2%;
+  }
+
+
+  .imgmodavo {
+    margin-left: 31%;
+    margin-top: -28%;
+    max-width: 100%;
+    width: 25%;
+    height: 50px;
+  }
+
+  #imgmodavo {
+    margin-top: 25%;
+    max-width: 100%;
+    margin-left: 50%;
+    width: 100%;
+  }
+
+
+
+  #imglogotelecall {
+    max-width: 100%;
+    width: 10%;
+    margin-left: 50%;
+    margin-top: 10%;
+  }
+
+  .imglogin {
+    max-width: 100%;
+    height: 300px;
+    width: 28%;
+    margin-left: -3.6%;
+    margin-top: -45%;
+  }
+
+  #imglogin {
+    margin-top: -40%;
+    width: 145%;
+    display: block
+  }
+
+  .imglogin2 {
+  
+    max-width: 20%;
+    height: 275px;
+    width: 28%;
+    margin-left: 78.6%;
+    margin-top: -27%;
+  }
+
+  #imglogin2 {
+    margin-top: 55%;
+    width: 90%;
+    display: block;
+    
+  }
+
+
+  
+
+  .footer {
+    margin-top: 28.2%;
+    background-color: #0b0b0b;
+    color: #f3efef;
+   
+    text-align: center;
+    width: 100%
+  }
+
+
+  .iconsdarklight{max-width: 2%;
+    margin-left: 44.6%;
+    margin-top: -4.2%;
+    height: 48px;}
+    .bi::after{content: "";
+      position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0%;
+    left: 33%;
+    bottom: 26px;
+    transition: 0.3s;
+    
+    }
+    
+    
+    .bi:hover::after{width: 11%;
+      box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+    }
+}
+
+
+
+
+@media (min-width: 1920px) {
+  .titleentrar {
+    margin-top: -33%;
+    margin-left: 2.5%;
+  }
+
+
+  #entrar {
+    font-size: 2.9rem;
+    color: rgb(57, 85, 85);
+    margin-top: 5%;
+  }
+
+  .containerlogin {
+    max-width: 55%;
+    margin: 0 auto;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 65px;
+    width: 75%;
+    height: 550px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 36%;
+    margin-top: 5%;
+  }
+
+  .conteúdologin {
+    display: none;
+    margin-top: -25%;
+    margin-left: 37%;
+    max-width: 50%;
+  }
+
+  #loginlabel {
+    margin-top: 3%;
+    font-size: 1.6rem;
+    margin-left: -95%;
+  }
+
+  #senhalabel {
+    margin-top: -2%;
+    margin-left: -95%;
+    font-size: 1.6rem;
+  }
+
+
+
+  .subtitleserviços {
+    margin-top: 2%;
+    margin-left: 1.6%;
+  }
+
+  .descripitioncadastro {
+    margin-top: 2%;
+  }
+
+
+  #login {
+    max-width: 100%;
+    width: 275px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: -94%;
+    margin-top: 2%;
+  }
+
+
+  #senha {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-left: -94%
+  }
+
+
+  #Enviar {
+    max-width: 100%;
+    width: 200px;
+    padding: 5px;
+    background-color: rgb(86, 195, 242);
+    margin-top: -5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    color: #ffffff;
+  }
+
+  #Enviar:hover {
+    background-color: rgb(247, 45, 45);
+    transition: background-color 0.3s;
+  }
+
+  .enviarbtn {
+    margin-top: 18%;
+    margin-left: -86%;
+
+    max-width: 50%;
+  }
+
+
+  .imgmodavo {
+    max-width: 20%;
+    width: 10%;
+    max-height: 10%;
+    height: 75px;
+    margin-left: 45%;
+    margin-top: -8%;
+
+  }
+
+  #imgmodavo {
+    margin-top: 29%;
+    margin-left: -18%;
+  }
+
+
+
+
+  #imglogotelecall {
+    max-width: 100%;
+    width: 7%;
+    margin-left: 44%;
+    margin-top: 2%;
+  }
+
+  .imglogin {
+    max-width: 100%;
+    height: 300px;
+    width: 28%;
+    margin-left: 3%;
+    margin-top: -81%;
+  }
+
+  #imglogin {
+    margin-top: -25%;
+    width: 25%;
+    display: block
+  }
+
+  .imglogin2 {
+    max-width: 100%;
+    height: 300px;
+    width: 28%;
+    margin-left: 76%;
+    margin-top: -56%;
+  }
+
+  #imglogin2 {
+    margin-top: 15%;
+    width: 10%;
+    display: block;
+  }
+
+
+  
+
+  .footer {
+    margin-top: 17.2%;
+    background-color: #0b0b0b;
+    color: #f3efef;
+   
+    text-align: center;
+    width: 100%
+  }
+
+  
+}
+
+
+
+  ul li a{position: relative;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+  padding: 0 10px;
+  }
+  
+    ul li a::after{content: "";
+    position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0%;
+  left: 5%;
+  bottom: 0px;
+  transition: 0.4s;
+  
+  }
+  
+  
+  ul li a:hover::after{width: 90%;
+    box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+  }
+  
+  

@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+  }
+  
+/* Modo Noturno */
+
+  body {
+    background-color: #ffffff; 
+    color: #000000; 
+  }
+  
+  body.dark-mode {
+    background-color: #1a1a1a; 
+    color: #ffffff; 
+  }
+
+
+  
+#noturno {
+  text-align: center;
+}
+
+  /* Pagina de login*/
+  .container {
+    max-width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(191, 191, 192);
+    border-radius: 3px;
+  }
+  
+  .container1 {
+    max-width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(191, 191, 192);
+    border-radius: 3px;
+  }
+  
+  .container2 {
+    max-width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(191, 191, 192);
+    border-radius: 3px;
+    margin-bottom: 100px;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .logo img {
+    max-width: 180px;
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 2px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(103, 101, 101);
+  }
+  
+  #entrar {
+    display: block;
+    background-color: #b6250f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2%;
+    text-decoration: none;
+    margin-right: 365px;
+    text-align: center;
+  }
+  
+  #entrar:hover {
+    background-color: #b53c2a;
+  }
+  
+  #CpaaS {
+    display: block;
+    background-color: #b6250f;
+    color: #fff;
+    padding: 1%;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 50%;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    bottom: 75px;
+  
+  
+  
+  }
+  
+  #CpaaS:hover {
+    background-color: #b53c2a;
+  }
+  
+  #registro {
+    display: block;
+    background-color: #b6250f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+    text-decoration: none;
+    margin-right: 27%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #registro:hover {
+    background-color: #b53c2a;
+  }
+  
+  
+  /* Pagina de registro*/
+  
+  #cadastro {
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  
+  #sexoR {
+    width: 20px;
+    height: 12px;
+    margin-top: 5%;
+  
+  }
+  
+  
+  
+  
+  
+  
+  #Enviar {
+    display: block;
+    background-color: #b6250f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-right: 365px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  #Enviar:hover {
+    background-color: #b53c2a;
+  }
+  
+  #Voltar {
+    display: block;
+    background-color: #b6250f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-right: 365px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  #Voltar:hover {
+    background-color: #b53c2a;
+  }
+  
+  
+  
+  hr {
+    height: 1px;
+    border: none;
+    background-image: linear-gradient(to right, #b6250f, #d6b8d1ed);
+  
+  
+  }
+  
+  .container a:hover{
+    color: aqua;
+  }
+  

@@ -1,0 +1,845 @@
+
+body{background-color: #efebeb;
+  transition: 0.4s;}
+  
+  input[type="checkbox"]{display: none;}
+  
+  .titletrocadecontraste{margin-left: 80%;
+  
+  max-width: 10%;}
+  
+  #titletrocadecontraste{margin-top: -50%;}
+  
+  .iconsdarklight{max-width: 2%;
+  margin-left: 51.6%;
+  margin-top: -3%;
+  height: 40px;}
+  /* dark theme */
+  
+  .dark, .dark header {
+    background-color: #263238;
+    color: #fff
+  }
+  
+  .dark .bi-sun{
+    display: none;
+  }
+  
+  .dark .bi-moon{
+    display: block;
+  }
+  
+  
+  .bi {font-size: 1.6rem;
+  cursor: pointer;
+  }
+  
+  .bi::after{content: "";
+    position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0%;
+  left: 51.4%;
+  bottom: 15px;
+  transition: 0.4s;
+  
+  }
+  
+  
+  .bi:hover::after{width: 1.7%;
+    box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+  }
+  
+  .bi-moon{
+    display: none;
+  }
+  
+  
+  
+  
+  
+
+
+.containerbody {max-width: 100%;
+  margin-left: 12%;
+  }
+
+
+.titlegoogleverify{margin-top: 6%;}
+
+
+
+#oqueé{font-size: 3.9rem;
+  color: rgb(20, 150, 206);}
+
+
+#subtitle{color: rgb(0, 0, 0);
+  font-size: 2.2rem;
+margin-top: 2%;}
+
+
+
+#descripitiongoogleverify{font-size: 1.6rem;
+max-width: 45%;
+margin-top: 2%;}
+
+
+.imgtitle{max-width: 100%;}
+
+
+.imgcelular{max-width: 100%;}
+
+#celularimg{max-width: 100%;
+  width: 33%;
+display: flex;
+margin-left: 50%;
+margin-top: -25%;}
+
+.hr{max-width: 84%;
+  margin-top: 5%;}
+
+.hr2{max-width: 94%;
+      margin-top: 12%;}
+
+.hr3{max-width: 24%;
+  margin-top: -60%;}
+  
+
+.compatibilidadetitle{margin-top: 5%;}
+
+#compatibilidadetitle{font-size: 3.4rem;
+  color: rgb(20, 150, 206);
+}
+
+#lista1{margin-top: 2%;
+font-size: 1.4rem;
+max-width: 50%;}
+
+#lista2{margin-top: 2%;
+  font-size: 1.4rem;
+  max-width: 50%;}
+
+#lista3{margin-top: 2%;
+  font-size: 1.4rem;
+max-width: 50%;}
+
+
+
+.compatibilidadecelular{display: flex;}
+
+#compatibilidadecelular{width:30%;
+margin-left: 55%;
+margin-top: -21%;}
+
+
+
+
+.comofuncionatitle{margin-top: 6%;}
+
+#comofuncionatitle{font-size: 3.9rem;
+  color: rgb(20, 150, 206);}
+
+
+.imgcontain{display: flex;
+margin-top: -8%;}
+
+
+.img1{max-width: 100%;
+margin-left: 1.2%;
+margin-top: 13%};
+
+#img1{width: 10px;
+}
+.img2{margin-left: -30%;
+margin-top: -10%;}
+  
+.img3{max-width: 80%;
+  margin-left: 47%;
+  margin-top: 11%;}
+
+
+
+#img2{margin-left: 275%;
+margin-top: 200%;}
+
+  
+  
+
+
+.descriptp{margin-left: 6%;
+margin-top: 2%;}
+
+#descripitioncomofunciona{font-size: 1.6rem;
+max-width: 20%;
+text-align: center;}
+
+
+.descriptp2{margin-left: 34%;
+margin-top: -12.6%;}
+
+
+
+#descripitioncomofunciona2{font-size: 1.6rem;
+  max-width: 30%;
+  text-align: center;}
+
+
+  
+.descriptp3{margin-left: 63%;
+      margin-top: -12.6%;}
+      
+      
+      
+#descripitioncomofunciona3{font-size: 1.6rem;
+          max-width: 50%;
+          text-align: center;}
+
+#beneficiostitle{font-size: 3.9rem;
+              color: rgb(20, 150, 206);
+          margin-top: 3%;}
+              
+              
+.listasbeneficios{margin-top: 2%;}
+              
+              
+
+#lista4{margin-top: 2%;
+font-size: 1.8rem;}
+#lista5{margin-top: 4%;
+  font-size: 1.8rem;}
+#lista6{margin-top: 1%;
+  font-size: 1.8rem;}
+
+
+
+
+
+#descripitionbenef1{font-size: 1.6rem;
+max-width: 50%;}
+
+
+
+#descripitionbenef2{font-size: 1.6rem;
+  max-width: 50%;}
+
+
+
+#descripitionbenef3{font-size: 1.6rem;
+  max-width: 50%;}
+
+
+.imgbeneficios{max-width: 100%;}
+
+
+#beneficios{display: flex;
+max-width: 40%;
+margin-left: 125%;
+margin-top:-10%}
+      
+
+
+#ligaçoesdespamtitle{font-size: 3.9rem;
+  color: rgb(20, 150, 206);
+margin-top: 3%;}
+
+
+.listaligaçoes{font-size: 1.6rem;
+margin-top: 3%;
+max-width: 35%;}
+
+
+
+
+#listaspam1{margin-top: 6%;}
+
+#listaspam2{margin-top: 6%;}
+
+#listaspam3{margin-top: 6%;}
+
+
+#googleimg{display: flex;
+margin-left: 50%;
+margin-top: -25%;}
+
+footer {
+  margin-top: 8%;
+  background-color: #0b0b0b;
+  color: #f3efef;
+  padding: 25px;
+  text-align: center;
+  width: 100%
+}
+
+
+#home:hover{background-color: #ea5b5b;}
+
+#fa2:hover{background-color: #ea5b5b;}
+
+#gvc:hover{background-color: #ea5b5b;}
+
+#sms:hover{background-color: #ea5b5b;}
+
+#nmsc:hover{background-color: #ea5b5b;}
+
+
+/*media query responsivo */
+@media(max-width: 480px){.containerbody {max-width: 100%;
+  margin-left: 12%;
+  }
+
+
+.titlegoogleverify{margin-top: 6%;}
+
+
+
+#oqueé{font-size: 3.9rem;
+  color: rgb(20, 150, 206);
+margin-left: 30%;}
+
+
+#subtitle{color: rgb(0, 0, 0);
+  font-size: 2.2rem;
+margin-top: 6%;
+margin-left: 26%;}
+
+
+
+#descripitiongoogleverify{font-size: 1.6rem;
+max-width: 75%;
+margin-top: 12%;
+margin-left: 10%;}
+
+
+.imgtitle{max-width: 100%;}
+
+
+.imgcelular{max-width: 100%;
+display: none;}
+
+#celularimg{max-width: 100%;
+  width: 33%;
+display: flex;
+margin-left: 50%;
+margin-top: -25%;}
+
+.hr{max-width: 84%;
+  margin-top: 5%;}
+
+.hr2{max-width: 84%;
+      margin-top: 12%;}
+
+.hr3{max-width: 84%;
+  margin-top: 18%;}
+  
+
+.compatibilidadetitle{margin-top: 5%;}
+
+#compatibilidadetitle{font-size: 3.4rem;
+  color: rgb(20, 150, 206);
+  max-width: 65%;
+  margin-left: 23%;
+}
+
+#lista1{margin-top: 15%;
+font-size: 1.4rem;
+max-width: 70%;
+margin-left: 0%;}
+
+#lista2{margin-top: 12%;
+  font-size: 1.4rem;
+  max-width: 70%;}
+
+#lista3{margin-top: 16%;
+  font-size: 1.4rem;
+max-width: 70%;}
+
+
+
+.compatibilidadecelular{display: flex;}
+
+#compatibilidadecelular{width:30%;
+margin-left: 55%;
+margin-top: -21%;
+display: none;}
+
+
+
+
+.comofuncionatitle{margin-top: 6%;}
+
+#comofuncionatitle{font-size: 2.9rem;
+  color: rgb(20, 150, 206);
+margin-left: 20%;
+max-width: 60%;}
+
+
+.imgcontain{display: flex;
+margin-top: -8%;}
+
+
+.img1{max-width: 35%;
+  
+  height: 225px;
+margin-left: -2%;
+margin-top: 13%;
+
+}
+
+#img1{width: 70%;
+  display: none;
+}
+.img2{max-width: 35%;
+  height: 225px;
+margin-left: 2%;
+margin-top: 12%;
+}
+  
+.img3{max-width: 20%;
+  margin-left: 3%;
+  margin-top: 11%;
+}
+
+#img3{max-width: 75%;
+  margin-left: 45%;
+  margin-top: 11%;
+  display: none;
+}
+
+
+
+#img2{margin-left: 2%;
+  width: 70%;
+margin-top: 10%;
+display: none;}
+
+
+
+  
+  
+
+
+.descriptp{margin-left: 1%;
+margin-top: 2%;}
+
+#descripitioncomofunciona{font-size: 1.8rem;
+max-width: 65%;
+text-align: center;
+margin-left: 10%;
+margin-top: -40%;}
+
+
+.descriptp2{margin-left: 34%;
+margin-top: -23.6%;
+}
+
+
+
+#descripitioncomofunciona2{font-size: 1.6rem;
+  text-align: center;
+  max-width: 76%;
+margin-top: 50%;
+margin-left: -20%;}
+
+
+  
+.descriptp3{margin-left: 66%;
+      margin-top: -23.9%;}
+      
+      
+      
+#descripitioncomofunciona3{font-size: 1.6rem;
+          max-width: 120%;
+          text-align: center;
+        margin-left: -120%;
+      margin-top: 85%;}
+
+#beneficiostitle{font-size: 3.9rem;
+              color: rgb(20, 150, 206);
+          margin-top: 3%;}
+              
+              
+.listasbeneficios{margin-top: 2%;}
+              
+              
+
+#lista4{margin-top: 2%;
+font-size: 1.8rem;}
+#lista5{margin-top: 4%;
+  font-size: 1.8rem;}
+#lista6{margin-top: 1%;
+  font-size: 1.8rem;}
+
+
+
+
+
+#descripitionbenef1{font-size: 1.6rem;
+max-width: 50%;}
+
+
+
+#descripitionbenef2{font-size: 1.6rem;
+  max-width: 50%;}
+
+
+
+#descripitionbenef3{font-size: 1.6rem;
+  max-width: 50%;}
+
+
+.imgbeneficios{max-width: 10%;
+  height: 520px;
+  margin-left: 50%;
+  margin-top: -45%;
+  display: none;
+}
+
+
+
+#beneficios{display: flex;
+max-width: 350%;
+margin-left: 15%;
+display: none;}
+
+      
+
+
+#ligaçoesdespamtitle{font-size: 3.9rem;
+  color: rgb(20, 150, 206);
+margin-top: 3%;}
+
+
+.listaligaçoes{font-size: 1.6rem;
+margin-top: 3%;
+max-width: 35%;}
+
+
+
+
+#listaspam1{margin-top: 6%;}
+
+#listaspam2{margin-top: 6%;}
+
+#listaspam3{margin-top: 6%;}
+
+
+#googleimg{display: flex;
+margin-left: 50%;
+margin-top: -25%;}
+
+footer {
+  margin-top: 8%;
+  background-color: #0b0b0b;
+  color: #f3efef;
+  padding: 25px;
+  text-align: center;
+  width: 100%
+}
+
+
+#home:hover{background-color: #ea5b5b;}
+
+#fa2:hover{background-color: #ea5b5b;}
+
+#gvc:hover{background-color: #ea5b5b;}
+
+#sms:hover{background-color: #ea5b5b;}
+
+#nmsc:hover{background-color: #ea5b5b;}
+}
+
+
+
+
+
+
+@media(min-width: 768px){}
+
+
+
+
+
+@media(min-width: 1024px){}
+
+
+
+@media(min-width: 1366px){.containerbody {max-width: 100%;
+  margin-left: 12%;
+  }
+
+
+.titlegoogleverify{margin-top: 6%;}
+
+
+
+#oqueé{font-size: 3.9rem;
+  color: rgb(20, 150, 206);}
+
+
+#subtitle{color: rgb(0, 0, 0);
+  font-size: 2.2rem;
+margin-top: 2%;}
+
+
+
+#descripitiongoogleverify{font-size: 1.6rem;
+max-width: 45%;
+margin-top: 2%;}
+
+
+.imgtitle{max-width: 100%;}
+
+
+.imgcelular{max-width: 100%;}
+
+#celularimg{max-width: 100%;
+  width: 33%;
+display: flex;
+margin-left: 50%;
+margin-top: -25%;}
+
+.hr{max-width: 84%;
+  margin-top: 5%;}
+
+.hr2{max-width: 84%;
+      margin-top: 12%;}
+
+.hr3{max-width: 84%;
+  margin-top: 18%;}
+  
+
+.compatibilidadetitle{margin-top: 5%;}
+
+#compatibilidadetitle{font-size: 3.4rem;
+  color: rgb(20, 150, 206);
+}
+
+#lista1{margin-top: 2%;
+font-size: 1.4rem;
+max-width: 50%;}
+
+#lista2{margin-top: 2%;
+  font-size: 1.4rem;
+  max-width: 50%;}
+
+#lista3{margin-top: 2%;
+  font-size: 1.4rem;
+max-width: 50%;}
+
+
+
+.compatibilidadecelular{display: flex;}
+
+#compatibilidadecelular{width:30%;
+margin-left: 55%;
+margin-top: -21%;}
+
+
+
+
+.comofuncionatitle{margin-top: 6%;}
+
+#comofuncionatitle{font-size: 3.9rem;
+  color: rgb(20, 150, 206);}
+
+
+.imgcontain{display: flex;
+margin-top: -8%;}
+
+
+.img1{max-width: 35%;
+  
+  height: 225px;
+margin-left: -2%;
+margin-top: 13%;
+
+}
+
+#img1{width: 70%;
+}
+.img2{max-width: 35%;
+  height: 225px;
+margin-left: 2%;
+margin-top: 12%;
+}
+  
+.img3{max-width: 20%;
+  margin-left: 3%;
+  margin-top: 11%;
+}
+
+#img3{max-width: 75%;
+  margin-left: 45%;
+  margin-top: 11%;
+}
+
+
+
+#img2{margin-left: 2%;
+  width: 70%;
+margin-top: 10%;}
+
+
+
+  
+  
+
+
+.descriptp{margin-left: 1%;
+margin-top: 2%;}
+
+#descripitioncomofunciona{font-size: 1.6rem;
+max-width: 20%;
+text-align: center;}
+
+
+.descriptp2{margin-left: 34%;
+margin-top: -23.6%;}
+
+
+
+#descripitioncomofunciona2{font-size: 1.6rem;
+  max-width: 30%;
+  text-align: center;}
+
+
+  
+.descriptp3{margin-left: 66%;
+      margin-top: -23.9%;}
+      
+      
+      
+#descripitioncomofunciona3{font-size: 1.6rem;
+          max-width: 50%;
+          text-align: center;}
+
+#beneficiostitle{font-size: 3.9rem;
+              color: rgb(20, 150, 206);
+          margin-top: 3%;}
+              
+              
+.listasbeneficios{margin-top: 2%;}
+              
+              
+
+#lista4{margin-top: 2%;
+font-size: 1.8rem;}
+#lista5{margin-top: 4%;
+  font-size: 1.8rem;}
+#lista6{margin-top: 1%;
+  font-size: 1.8rem;}
+
+
+
+
+
+#descripitionbenef1{font-size: 1.6rem;
+max-width: 50%;}
+
+
+
+#descripitionbenef2{font-size: 1.6rem;
+  max-width: 50%;}
+
+
+
+#descripitionbenef3{font-size: 1.6rem;
+  max-width: 50%;}
+
+
+.imgbeneficios{max-width: 10%;
+  height: 520px;
+  margin-left: 50%;
+  margin-top: -45%;
+}
+
+
+
+#beneficios{display: flex;
+max-width: 350%;
+margin-left: 15%;}
+
+      
+
+
+#ligaçoesdespamtitle{font-size: 3.9rem;
+  color: rgb(20, 150, 206);
+margin-top: 3%;}
+
+
+.listaligaçoes{font-size: 1.6rem;
+margin-top: 3%;
+max-width: 35%;}
+
+
+
+
+#listaspam1{margin-top: 6%;}
+
+#listaspam2{margin-top: 6%;}
+
+#listaspam3{margin-top: 6%;}
+
+
+#googleimg{display: flex;
+margin-left: 50%;
+margin-top: -25%;}
+
+footer {
+  margin-top: 8%;
+  background-color: #0b0b0b;
+  color: #f3efef;
+  padding: 25px;
+  text-align: center;
+  width: 100%
+}
+
+
+.iconsdarklight{max-width: 2%;
+  margin-left: 57.6%;
+  margin-top: -4.2%;
+  height: 48px;}
+
+  .bi::after{content: "";
+    position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0%;
+  left: 45.5%;
+  bottom: 25px;
+  transition: 0.2s;
+  
+  }
+  
+  
+  .bi:hover::after{width: 11%;
+    box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+  }
+}
+
+
+
+ul li a{position: relative;
+  font-size: 50px;
+  letter-spacing: 0.5px;
+padding: 0 10px;
+}
+
+  ul li a::after{content: "";
+  position: absolute;
+background-color: rgb(255, 255, 255);
+height: 3px;
+width: 0%;
+left: 5%;
+bottom: 0px;
+transition: 0.1s;
+
+
+}
+
+
+ul li a:hover::after{width: 90%;
+  box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+}
+
+

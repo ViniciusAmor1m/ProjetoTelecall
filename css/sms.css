@@ -1,0 +1,607 @@
+
+body{background-color: #efebeb;
+    transition: 0.4s;}
+    
+    input[type="checkbox"]{display: none;}
+    
+    .titletrocadecontraste{margin-left: 80%;
+    
+    max-width: 10%;}
+    
+    #titletrocadecontraste{margin-top: -50%;}
+    
+    .iconsdarklight{max-width: 2%;
+    margin-left: 51.6%;
+    margin-top: -3%;
+    height: 40px;}
+    /* dark theme */
+    
+    .dark, .dark header {
+      background-color: #263238;
+      color: #fff
+    }
+    
+    .dark .bi-sun{
+      display: none;
+    }
+    
+    .dark .bi-moon{
+      display: block;
+    }
+    
+    
+    .bi {font-size: 1.6rem;
+    cursor: pointer;
+    }
+    
+    .bi::after{content: "";
+      position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0%;
+    left: 51.4%;
+    bottom: 15px;
+    transition: 0.4s;
+    
+    }
+    
+    
+    .bi:hover::after{width: 1.7%;
+      box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+    }
+    
+    .bi-moon{
+      display: none;
+    }
+    
+    
+    
+
+
+.containerbody {max-width: 100%;
+margin-left: 12%;
+}
+
+.h1oqueé{margin-top: 6%;}
+
+#h1oqueé{font-size: 3.9rem;
+color: rgb(20, 150, 206);}
+
+.p1{margin-top: 2%;
+}
+
+#p1description{font-size: 2.2rem;
+color: rgb(9, 9, 9);
+}
+
+.p2 {max-width: 45%;
+margin-top: 2%;}
+
+#p2description{font-size: 1.6rem;}
+
+#p3description{font-size: 1.6rem;}
+
+#p4description{font-size: 1.6rem;}
+
+.imgcelular {width: 100%;}
+
+#imgcelular {width: 26%;
+display: flex;
+margin-left: 58%;
+margin-top: -36%;}
+
+.hr{max-width: 84%;
+margin-top: 5%;}
+.smsestatisticas{margin-top: 3%;}
+
+.smsestatisticas2{margin-left: 8%;}
+
+#p1estatisticas{font-size: 1.8rem;
+}
+
+.estatisticasnum{max-width: 100%;}
+
+
+.est98{margin-left: 15%;
+margin-top: 5%;
+}
+
+#esta98{font-size: 6.3rem;
+color: rgb(20, 150, 206);}
+
+.est90{margin-left: 5%;}
+
+    #esta90{font-size: 6.3rem;
+    color: rgb(20, 150, 206);
+margin-left: 55%;
+margin-top: -8%;}
+
+
+.eest80{
+        margin-top: 5%;
+        }
+        
+#esta80{font-size: 6.3rem;
+        color: rgb(20, 150, 206);
+    margin-left: 15%;
+margin-top: 8%;}
+
+
+
+.est35x{margin-top: 5%;
+}
+
+#esta35x{font-size: 6.3rem;
+    color: rgb(20, 150, 206);
+margin-left: 58%;
+margin-top: -11.8%;}
+
+.descriptionestatisticas{margin-left: 14%;
+margin-top: -15%;}
+
+#descriptionest1{margin-left: -3%;}
+
+
+#descriptionest2{margin-left: 40%;
+margin-top: -3.3%;}
+
+#descriptionest3{margin-top: 15%;
+margin-left: -3%;
+max-width: 30%;}
+
+#descriptionest4{margin-left: 45%;
+margin-top: -6.3%;
+max-width: 30%;}
+
+.quemusacontain{margin-top: 5%;}
+
+
+#quemusatitle{font-size: 3.9rem;
+color:rgb(20, 150, 206)}
+
+#descripitionquemusa{font-size: 1.6rem;
+margin-top: 2%;}
+
+
+.imgcontain {display: flex;
+max-width: 100%;
+width: 100%;
+margin-left: -1%;
+}
+
+#divulgaçãoimg{max-width: 75%;
+margin-top: 25%;}
+
+#transaçõesimg{max-width: 75%;
+    margin-top: 25%;}
+
+#segurançaimg{max-width: 75%;
+    margin-top: 25%;}
+
+#sacimg{max-width: 75%;
+    margin-top: 25%;}
+
+#notificaçõesimg{max-width: 75%;
+    margin-top: 25%;}
+
+.descriptionquemusa{display: flex;
+    max-width: 100%;
+gap:5%}
+
+
+#divulgaçãotilte{font-size: 1.8rem;
+margin-top: 20%;
+margin-left: 22%;
+max-width: 100%;
+}
+
+
+#transaçõestilte{font-size: 1.8rem;
+    margin-top: 20%;
+    margin-left: 89%;
+    max-width: 100%;}
+
+
+#segurançatilte{font-size: 1.8rem;
+    margin-top: 20%;
+    margin-left: 160%;
+    max-width: 100%;}
+
+
+
+
+#suporteaoclientetilte{font-size: 1.8rem;
+margin-left: 320%;
+margin-top: 25%;}
+
+
+#notificaçõesotilte{font-size: 1.8rem;
+    margin-top: 15%;
+    margin-left: 283%;
+    max-width: 100%;}
+
+
+.jornadadoclientecontain{max-width: 85%;
+    margin-top: 4%;}
+
+#jornadadoclientetitle{font-size: 3.9rem;
+color: rgb(20, 150, 206);}
+
+#descriptionjornadadocliente{font-size: 1.6rem;
+    margin-top: 2%;}
+
+
+
+.imgcontainjornada{max-width: 70%;}
+
+#jornadaimg{max-width: 120%;
+margin-left: 12%;
+margin-top: 16%;}
+
+
+#beneficiostitle{font-size: 3.9rem;
+color: rgb(20, 150, 206);}
+
+
+.listasbeneficios{margin-top: 2%;}
+
+
+#lista1{margin-top: 2%;}
+#lista2{margin-top: 2%;}
+#lista3{margin-top: 2%;}
+#lista4{margin-top: 2%;}
+#lista5{margin-top: 2%;}
+#lista6{margin-top: 2%;}
+#lista7{margin-top: 2%;}
+
+
+footer {
+    margin-top: 8%;
+    background-color: #0b0b0b;
+    color: #f3efef;
+    padding: 25px;
+    text-align: center;
+    width: 100%
+  }
+
+
+#home:hover{background-color: #ea5b5b;}
+
+#fa2:hover{background-color: #ea5b5b;}
+
+#gvc:hover{background-color: #ea5b5b;}
+
+#sms:hover{background-color: #ea5b5b;}
+
+#nmsc:hover{background-color: #ea5b5b;}
+
+
+
+/*media query responsivo */
+@media(min-width: 1366px){}
+@media(min-width: 1366px){}
+@media(min-width: 1366px){}
+@media(min-width: 1366px){}
+@media(min-width: 1366px){}
+
+@media(min-width: 1366px){.containerbody {max-width: 100%;
+    margin-left: 12%;
+    }
+    
+    .h1oqueé{margin-top: 6%;}
+    
+    #h1oqueé{font-size: 3.9rem;
+    color: rgb(20, 150, 206);}
+    
+    .p1{margin-top: 2%;
+    }
+    
+    #p1description{font-size: 2.2rem;
+    color: rgb(9, 9, 9);
+    }
+    
+    .p2 {max-width: 45%;
+    margin-top: 2%;}
+    
+    #p2description{font-size: 1.6rem;}
+    
+    #p3description{font-size: 1.6rem;}
+    
+    #p4description{font-size: 1.6rem;}
+    
+    .imgcelular {width: 100%;
+        height: 650px;}
+    
+    #imgcelular {width: 30%;
+    display: flex;
+    margin-left: 64%;
+    margin-top: -50%;}
+    
+    .hr{max-width: 84%;
+    margin-top: 5%;}
+    .smsestatisticas{margin-top: 3%;}
+    
+    .smsestatisticas2{margin-left: 8%;}
+    
+    #p1estatisticas{font-size: 1.8rem;
+        margin-left: -8%;
+    }
+    
+    .estatisticasnum{max-width: 100%;}
+    
+    
+    .est98{margin-left: 15%;
+    margin-top: 7%;
+    }
+    
+    #esta98{font-size: 6.3rem;
+    color: rgb(20, 150, 206);}
+    
+    .est90{margin-left: 5%;}
+    
+        #esta90{font-size: 6.3rem;
+        color: rgb(20, 150, 206);
+    margin-left: 55%;
+    margin-top: -11.6%;}
+    
+    
+    .eest80{
+            margin-top: 5%;
+            }
+            
+    #esta80{font-size: 6.3rem;
+            color: rgb(20, 150, 206);
+        margin-left: 15%;
+    margin-top: 15%;}
+    
+    
+    
+    .est35x{margin-top: 1.6%;
+    }
+    
+    #esta35x{font-size: 6.3rem;
+        color: rgb(20, 150, 206);
+    margin-left: 58%;
+    margin-top: -11.8%;}
+    
+    .descriptionestatisticas{margin-left: 5%;
+    margin-top: -20%;}
+    
+    #descriptionest1{margin-left: 6%;
+    margin-top: -5%;}
+    
+    
+    #descriptionest2{margin-left: 40%;
+    margin-top: -4.3%;}
+    
+    #descriptionest3{margin-top: 23%;
+    margin-left: 6%;
+    max-width: 30%;}
+    
+    #descriptionest4{margin-left: 45%;
+    margin-top: -7.3%;
+    max-width: 35%;}
+    
+    .quemusacontain{margin-top: 5%;}
+    
+    
+    #quemusatitle{font-size: 3.9rem;
+    color:rgb(20, 150, 206)}
+    
+    #descripitionquemusa{font-size: 1.6rem;
+    margin-top: 2%;}
+    
+    
+    .imgcontain {display: flex;
+    max-width: 100%;
+    width: 100%;
+    margin-left: -1%;
+    }
+    
+    #divulgaçãoimg{max-width: 75%;
+    margin-top: 25%;}
+    
+    #transaçõesimg{max-width: 75%;
+        margin-top: 25%;}
+    
+    #segurançaimg{max-width: 75%;
+        margin-top: 25%;}
+    
+    #sacimg{max-width: 75%;
+        margin-top: 25%;}
+    
+    #notificaçõesimg{max-width: 75%;
+        margin-top: 25%;}
+    
+    .descriptionquemusa{display: flex;
+        max-width: 100%;
+    gap:5%}
+    
+    
+    #divulgaçãotilte{font-size: 1.8rem;
+    margin-top: 20%;
+    margin-left: 0%;
+    max-width: 100%;
+    }
+    
+    
+    #transaçõestilte{font-size: 1.8rem;
+        margin-top: 20%;
+        margin-left: 20%;
+        max-width: 100%;}
+    
+    
+    #segurançatilte{font-size: 1.8rem;
+        margin-top: 20%;
+        margin-left: 48%;
+        max-width: 100%;}
+    
+    
+    
+    
+    #suporteaoclientetilte{font-size: 1.8rem;
+    margin-left: 105%;
+    margin-top: 25%;}
+    
+    
+    #notificaçõesotilte{font-size: 1.8rem;
+        margin-top: 15%;
+        margin-left: 93%;
+        max-width: 100%;}
+    
+    
+    .jornadadoclientecontain{max-width: 85%;
+        margin-top: 4%;}
+    
+    #jornadadoclientetitle{font-size: 3.9rem;
+    color: rgb(20, 150, 206);}
+    
+    #descriptionjornadadocliente{font-size: 1.6rem;
+        margin-top: 2%;}
+    
+    
+    
+    .imgcontainjornada{max-width: 70%;}
+    
+    #jornadaimg{max-width: 120%;
+    margin-left: 12%;
+    margin-top: 16%;}
+    
+    
+    #beneficiostitle{font-size: 3.9rem;
+    color: rgb(20, 150, 206);}
+    
+    
+    .listasbeneficios{margin-top: 2%;}
+    
+    
+    #lista1{margin-top: 2%;}
+    #lista2{margin-top: 2%;}
+    #lista3{margin-top: 2%;}
+    #lista4{margin-top: 2%;}
+    #lista5{margin-top: 2%;}
+    #lista6{margin-top: 2%;}
+    #lista7{margin-top: 2%;}
+    
+    
+    footer {
+        margin-top: 8%;
+        background-color: #0b0b0b;
+        color: #f3efef;
+        padding: 25px;
+        text-align: center;
+        width: 100%
+      }
+    
+      .iconsdarklight{max-width: 2%;
+        margin-left: 57.6%;
+        margin-top: -4.2%;
+        height: 48px;}
+      
+        .bi::after{content: "";
+          position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 3px;
+        width: 0%;
+        left: 45.5%;
+        bottom: 25px;
+        transition: 0.2s;
+        
+        }
+        
+        
+        .bi:hover::after{width: 11%;
+          box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+        }
+ 
+    
+    }
+
+    .menu{position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 90px;
+        background-color: rgb(20, 150, 206);
+      }
+      
+      nav ul {display: flex;
+      list-style: none;
+      align-items: center;
+      height: 10px;
+      margin-left: 12%;
+      margin-top: -1.1%
+      }
+      
+      .menu{position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 90px;
+        background-color: rgb(20, 150, 206);
+      }
+      
+      nav ul {display: flex;
+      list-style: none;
+      align-items: center;
+      height: 10px;
+      margin-left: 12%;
+      margin-top: -1.1%
+      }
+      
+      nav li {margin-left: 8%;}
+      
+      nav a{text-decoration: none;
+      color: #fff;}
+      
+      
+      nav a:hover{color:rgb(65, 92, 92)}
+      
+      
+      .btns{margin-left: 82%;
+      margin-top: -1.8%;
+      border: none;}
+      
+      button{ border: none;
+      color: rgb(15, 16, 16);
+      background-color: rgb(234, 239, 241);
+      width: 33%;
+      }
+      
+      #sairbtn{border-radius: 85px;}
+      
+      #sairbtn:hover{background-color:rgb(111, 176, 203);
+      color:#f3eeee}
+      
+      .imglogotelecall{
+      width: 10%;
+      margin-left: 5%;
+      margin-top: 1.5%;}
+      
+
+
+      
+ul li a{position: relative;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+  padding: 0 10px;
+  }
+  
+    ul li a::after{content: "";
+    position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0%;
+  left: 5%;
+  bottom: 0px;
+  transition: 0.1s;
+  
+  }
+  
+  
+  ul li a:hover::after{width: 90%;
+    box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+  }
+  
+  
+  

@@ -1,0 +1,541 @@
+
+body{background-color: #efebeb;
+    transition: 0.4s;}
+    
+    input[type="checkbox"]{display: none;}
+    
+    .titletrocadecontraste{margin-left: 80%;
+    
+    max-width: 10%;}
+    
+    #titletrocadecontraste{margin-top: -50%;}
+    
+    .iconsdarklight{max-width: 2%;
+    margin-left: 51.6%;
+    margin-top: -3%;
+    height: 40px;}
+    /* dark theme */
+    
+    .dark, .dark header {
+      background-color: #263238;
+      color: #fff
+    }
+    
+    .dark .bi-sun{
+      display: none;
+    }
+    
+    .dark .bi-moon{
+      display: block;
+    }
+    
+    
+    .bi {font-size: 1.6rem;
+    cursor: pointer;
+    }
+    
+    .bi::after{content: "";
+      position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0%;
+    left: 51.4%;
+    bottom: 15px;
+    transition: 0.4s;
+    
+    }
+    
+    
+    .bi:hover::after{width: 1.7%;
+      box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+    }
+    
+    .bi-moon{
+      display: none;
+    }
+    
+    
+    
+
+
+.containerbody {max-width: 100%;
+    margin-left: 12%;
+    }
+
+
+.titlegoogleverify{margin-top: 6%;}
+
+
+
+#oqueé{font-size: 3.9rem;
+    color: rgb(20, 150, 206);}
+
+
+#subtitle{color: rgb(0, 0, 0);
+    font-size: 2.2rem;
+margin-top: 2%;}
+
+
+
+#descripitiongoogleverify{font-size: 1.6rem;
+max-width: 45%;
+margin-top: 2%;}
+
+
+.imgtitle{max-width: 100%;}
+
+
+.imgcelular{max-width: 100%;}
+
+#celularimg{max-width: 100%;
+display: flex;
+margin-left: 50%;
+margin-top: -25%;}
+
+.hr{max-width: 84%;
+    margin-top: 5%;}
+
+.hr2{max-width: 84%;
+        margin-top: 8%;}
+
+.hr3{max-width: 84%;
+    margin-top: 12%;}
+    
+
+.compatibilidadetitle{margin-top: 5%;}
+
+#compatibilidadetitle{font-size: 3.4rem;
+    color: rgb(20, 150, 206);
+}
+
+#lista1{margin-top: 2%;
+font-size: 1.4rem;
+max-width: 50%;}
+
+#lista2{margin-top: 2%;
+    font-size: 1.4rem;
+    max-width: 50%;}
+
+#lista3{margin-top: 2%;
+    font-size: 1.4rem;
+max-width: 50%;}
+
+
+
+.compatibilidadecelular{display: flex;}
+
+#compatibilidadecelular{width:30%;
+margin-left: 55%;
+margin-top: -21%;}
+
+
+
+
+.comofuncionatitle{margin-top: 6%;}
+
+#comofuncionatitle{font-size: 3.9rem;
+    color: rgb(20, 150, 206);}
+
+
+.imgcontain{display: flex;
+margin-top: -8%;}
+
+
+.img1{max-width: 100%;
+margin-left: 10%;
+margin-top: 11%};
+    
+    
+.img2{margin-left: 5%;}
+    
+.img3{max-width: 80%;
+    margin-left: 40%;
+    margin-top: 11%;}
+
+
+
+#img2{margin-left: 275%;
+margin-top: 200%;}
+
+
+.descriptp{margin-left: 6%;}
+
+#descripitioncomofunciona{font-size: 1.6rem;
+max-width: 20%;
+text-align: center;}
+
+
+.descriptp2{margin-left: 34%;
+margin-top: -10.6%;}
+
+
+
+#descripitioncomofunciona2{font-size: 1.6rem;
+    max-width: 30%;
+    text-align: center;}
+
+
+    
+.descriptp3{margin-left: 63%;
+        margin-top: -16.6%;}
+        
+        
+        
+#descripitioncomofunciona3{font-size: 1.6rem;
+            max-width: 50%;
+            text-align: center;}
+
+#beneficiostitle{font-size: 3.9rem;
+                color: rgb(20, 150, 206);
+            margin-top: 6%;}
+                
+                
+.listasbeneficios{margin-top: 2%;}
+                
+                
+
+#lista4{margin-top: 2%;
+font-size: 1.8rem;}
+#lista5{margin-top: 4%;
+    font-size: 1.8rem;}
+#lista6{margin-top: 1%;
+    font-size: 1.8rem;}
+
+
+
+
+
+#descripitionbenef1{font-size: 1.6rem;
+max-width: 50%;}
+
+
+
+#descripitionbenef2{font-size: 1.6rem;
+    max-width: 50%;}
+
+
+
+#descripitionbenef3{font-size: 1.6rem;
+    max-width: 50%;}
+
+
+.imgbeneficios{max-width: 50%;}
+
+
+#beneficios{display: flex;
+max-width: 40%;
+margin-left: 125%;
+margin-top:-65%}
+        
+
+
+#ligaçoesdespamtitle{font-size: 3.9rem;
+    color: rgb(20, 150, 206);
+margin-top: 3%;}
+
+
+.listaligaçoes{font-size: 1.6rem;
+margin-top: 3%;
+max-width: 35%;}
+
+
+
+
+#listaspam1{margin-top: 6%;}
+
+#listaspam2{margin-top: 6%;}
+
+#listaspam3{margin-top: 6%;}
+
+
+#googleimg{display: flex;
+margin-left: 50%;
+margin-top: -25%;}
+
+footer {
+    margin-top: 8%;
+    background-color: #0b0b0b;
+    color: #f3efef;
+    padding: 25px;
+    text-align: center;
+    width: 100%
+  }
+
+
+#home:hover{background-color: #ea5b5b;}
+
+#fa2:hover{background-color: #ea5b5b;}
+
+#gvc:hover{background-color: #ea5b5b;}
+
+#sms:hover{background-color: #ea5b5b;}
+
+#nmsc:hover{background-color: #ea5b5b;}
+/*media query responsivo */
+
+
+@media(min-width: 1366px){}
+@media(min-width: 1366px){}
+@media(min-width: 1366px){}
+
+@media(min-width: 1366px){.containerbody {max-width: 100%;
+    margin-left: 12%;
+    }
+
+
+.titlegoogleverify{margin-top: 6%;}
+
+
+
+#oqueé{font-size: 3.9rem;
+    color: rgb(20, 150, 206);}
+
+
+#subtitle{color: rgb(0, 0, 0);
+    font-size: 2.2rem;
+margin-top: 2%;}
+
+
+
+#descripitiongoogleverify{font-size: 1.6rem;
+max-width: 45%;
+margin-top: 2%;}
+
+
+.imgtitle{max-width: 100%;}
+
+
+.imgcelular{max-width: 100%;}
+
+#celularimg{max-width: 100%;
+display: flex;
+margin-left: 50%;
+margin-top: -25%;}
+
+.hr{max-width: 84%;
+    margin-top: 5%;}
+
+.hr2{max-width: 84%;
+        margin-top: 8%;}
+
+.hr3{max-width: 84%;
+    margin-top: 12%;}
+    
+
+.compatibilidadetitle{margin-top: 5%;}
+
+#compatibilidadetitle{font-size: 3.4rem;
+    color: rgb(20, 150, 206);
+}
+
+#lista1{margin-top: 2%;
+font-size: 1.4rem;
+max-width: 50%;}
+
+#lista2{margin-top: 2%;
+    font-size: 1.4rem;
+    max-width: 50%;}
+
+#lista3{margin-top: 2%;
+    font-size: 1.4rem;
+max-width: 50%;}
+
+
+
+.compatibilidadecelular{display: flex;}
+
+#compatibilidadecelular{width:30%;
+margin-left: 55%;
+margin-top: -21%;}
+
+
+
+
+.comofuncionatitle{margin-top: 6%;}
+
+#comofuncionatitle{font-size: 3.9rem;
+    color: rgb(20, 150, 206);}
+
+
+.imgcontain{display: flex;
+margin-top: -8%;}
+
+
+.img1{max-width: 100%;
+margin-left: 10%;
+margin-top: 11%};
+    
+    
+.img2{margin-left: 5%;}
+    
+.img3{max-width: 80%;
+    margin-left: 40%;
+    margin-top: 11%;}
+
+
+
+#img2{margin-left: 175%;
+margin-top: 150%;}
+
+
+.descriptp{margin-left: 6%;}
+
+#descripitioncomofunciona{font-size: 1.6rem;
+max-width: 20%;
+text-align: center;}
+
+
+.descriptp2{margin-left: 34%;
+margin-top: -21%;}
+
+
+
+#descripitioncomofunciona2{font-size: 1.6rem;
+    max-width: 45%;
+    text-align: center;}
+
+
+    
+.descriptp3{margin-left: 70%;
+        margin-top: -22.6%;}
+        
+        
+        
+#descripitioncomofunciona3{font-size: 1.6rem;
+            max-width: 80%;
+            text-align: center;}
+
+#beneficiostitle{font-size: 3.9rem;
+                color: rgb(20, 150, 206);
+            margin-top: 6%;}
+                
+                
+.listasbeneficios{margin-top: 2%;}
+                
+                
+
+#lista4{margin-top: 2%;
+font-size: 1.8rem;}
+#lista5{margin-top: 4%;
+    font-size: 1.8rem;}
+#lista6{margin-top: 1%;
+    font-size: 1.8rem;}
+
+
+
+
+
+#descripitionbenef1{font-size: 1.6rem;
+max-width: 50%;}
+
+
+
+#descripitionbenef2{font-size: 1.6rem;
+    max-width: 50%;}
+
+
+
+#descripitionbenef3{font-size: 1.6rem;
+    max-width: 50%;}
+
+
+.imgbeneficios{max-width: 40%;
+    width: 100%;
+    margin-top: -50%;
+   
+margin-left: 56%;
+height: 500px;
+}
+
+#beneficios{width: 100%;
+margin-left: 25%;}
+
+        
+
+
+#ligaçoesdespamtitle{font-size: 3.9rem;
+    color: rgb(20, 150, 206);
+margin-top: 6%;}
+
+
+.listaligaçoes{font-size: 1.6rem;
+margin-top: 3%;
+max-width: 35%;}
+
+
+
+
+#listaspam1{margin-top: 6%;}
+
+#listaspam2{margin-top: 6%;}
+
+#listaspam3{margin-top: 6%;}
+
+
+#googleimg{display: flex;
+margin-left: 50%;
+margin-top: -35%;}
+
+footer {
+    margin-top: 8%;
+    background-color: #0b0b0b;
+    color: #f3efef;
+    padding: 25px;
+    text-align: center;
+    width: 100%
+  }
+
+
+  .iconsdarklight{max-width: 2%;
+    margin-left: 57.6%;
+    margin-top: -4.2%;
+    height: 48px;}
+  
+    .bi::after{content: "";
+      position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0%;
+    left: 45.5%;
+    bottom: 25px;
+    transition: 0.2s;
+    
+    }
+    
+    
+    .bi:hover::after{width: 11%;
+      box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+    }
+
+}
+
+
+
+
+
+
+  
+ul li a{position: relative;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+  padding: 0 10px;
+  }
+  
+    ul li a::after{content: "";
+    position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0%;
+  left: 5%;
+  bottom: 0px;
+  transition: 0.1s;
+  
+  }
+  
+  
+  ul li a:hover::after{width: 90%;
+    box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+  }
+  
+  
+  

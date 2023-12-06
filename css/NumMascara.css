@@ -1,0 +1,667 @@
+
+body{background-color: #efebeb;
+  transition: 0.4s;}
+  
+  input[type="checkbox"]{display: none;}
+  
+  .titletrocadecontraste{margin-left: 80%;
+  
+  max-width: 10%;}
+  
+  #titletrocadecontraste{margin-top: -50%;}
+  
+  .iconsdarklight{max-width: 2%;
+  margin-left: 51.6%;
+  margin-top: -3%;
+  height: 40px;}
+  /* dark theme */
+  
+  .dark, .dark header {
+    background-color: #263238;
+    color: #fff
+  }
+  
+  .dark .bi-sun{
+    display: none;
+  }
+  
+  .dark .bi-moon{
+    display: block;
+  }
+  
+  
+  .bi {font-size: 1.6rem;
+  cursor: pointer;
+  }
+  
+  .bi::after{content: "";
+    position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0%;
+  left: 51.4%;
+  bottom: 15px;
+  transition: 0.4s;
+  
+  }
+  
+  
+  .bi:hover::after{width: 1.7%;
+    box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+  }
+  
+  .bi-moon{
+    display: none;
+  }
+  
+  
+  
+
+
+.containerbody {max-width: 100%;
+  margin-left: 12%;
+  }
+  
+  .h1oqueé{margin-top: 6%;}
+  
+  #h1oqueé{font-size: 3.9rem;
+  color: rgb(20, 150, 206);}
+  
+  .p1{margin-top: 2%;
+  }
+  
+  #p1description{font-size: 2.2rem;
+  color: rgb(14, 14, 14);
+  }
+  
+  .p2 {max-width: 45%;
+  margin-top: 2%;}
+  
+  #p2description{font-size: 1.6rem;}
+  
+  #p3description{font-size: 1.6rem;}
+  
+  #p4description{font-size: 1.6rem;}
+
+  #p5description{font-size: 1.6rem;}
+  
+  .imgcelular {width: 50%;}
+  
+  #imgcelular {width: 30%;
+  display: flex;
+  margin-left: 128%;
+  margin-top: -66%;}
+  
+  .hr{max-width: 84%;
+  margin-top: 5%;}
+  .comofuncionacontainer{margin-top: 3%;}
+  
+  .comofuncionadescript{margin-left: 8%;}
+
+
+#h1comofunciona{font-size: 3.6rem;
+  margin-left: -9%;
+  color: rgb(20, 150, 206);
+  }
+  
+  .estatisticasnum{max-width: 100%;
+  margin-left: 4%;}
+  
+  #nummasc{margin-left: -16%;}
+  
+  .est98{margin-left: -12%;
+  margin-top: 6%;
+  }
+  .est99{margin-left: 5%;
+    margin-top: -15%;
+    }
+    .est100{margin-left: 24%;
+      margin-top: -9%;
+      }
+  
+  #esta98{font-size: 1.6rem;
+  color: rgb(0, 0, 0);
+max-width: 16%;
+text-align: center;
+margin-top: 0%;
+margin-left: -12%;}
+
+
+#esta99{font-size: 1.6rem;
+  color: rgb(0, 0, 0);
+max-width: 16%;
+text-align: center;
+margin-top: -5% ;
+margin-left:25%;
+margin-top: 50.5%;}
+
+
+#esta100{font-size: 1.6rem;
+  color: rgb(0, 0, 0);
+max-width: 16%;
+text-align: center;
+margin-top: 6% ;
+margin-left:52%;
+margin-top: -9%}
+  
+  .est90{margin-left: 12%;
+  margin-top: 6%;}
+  
+      #esta90{font-size: 6.3rem;
+      color: rgb(20, 150, 206);
+  margin-left: 55%;
+  margin-top: -8%;}
+  
+  
+  .eest80{
+          margin-top: 5%;
+          }
+          
+  #esta80{font-size: 6.3rem;
+          color: rgb(20, 150, 206);
+      margin-left: 15%;
+  margin-top: 8%;}
+  
+  
+  
+  .est35x{margin-top: 5%;
+  }
+  
+  #esta35x{font-size: 6.3rem;
+      color: rgb(20, 150, 206);
+  margin-left: 58%;
+  margin-top: -11.8%;}
+  
+  .descriptionestatisticas{margin-left: 14%;
+  margin-top: -15%;}
+  
+  #descriptionest1
+  .descriptionest1{max-width: 100%;
+    width: 50%;
+    height: 400px;
+    margin-left: -50%;
+   
+font-size: 1.6rem;
+  }
+  
+  
+  #descriptionest2{margin-left: -1%;
+    max-width: 100%;
+  font-size: 1.6rem;
+  margin-top: -40.5%;
+margin-left: 25%;}
+
+.descriptionest2{margin-left: -105%;
+
+font-size: 1.6rem;
+margin-top: -22.5%;
+margin-left: 25%;
+height: 95px;
+width: 75%;}
+
+  
+  #descriptionest3{margin-left: -1%;
+    max-width: 20%;
+  font-size: 1.6rem;
+  margin-top: -11.5%;
+margin-left: 50%;}
+  
+  #descriptionest4{margin-left: 45%;
+  margin-top: -6.3%;
+  max-width: 30%;}
+  
+  .quemusacontain{margin-top: 5%;}
+  
+  
+  #quemusatitle{font-size: 3.9rem;
+  color:rgb(20, 150, 206)}
+  
+  #descripitionquemusa{font-size: 1.6rem;
+  margin-top: 2%;}
+  
+  
+  .imgcontain {display: flex;
+  max-width: 100%;
+  width: 100%;
+  margin-left: -1%;
+  }
+  
+  #divulgaçãoimg{max-width: 85%;
+  margin-top: 25%;
+margin-left: 35%;}
+  
+  #transaçõesimg{max-width: 75%;
+      margin-top: 15%;
+      margin-left: 120%;}
+  
+  #segurançaimg{max-width: 75%;
+      margin-top: 25%;
+      margin-left: 180%;}
+  
+  #sacimg{max-width: 75%;
+      margin-top: 25%;
+      margin-left: 180%;}
+  
+  #notificaçõesimg{max-width: 75%;
+      margin-top: 25%;}
+  
+  .descriptionquemusa{display: flex;
+      max-width: 100%;
+  gap:5%}
+  
+  
+  #divulgaçãotilte{font-size: 1.8rem;
+  margin-top: 20%;
+  margin-left: 28%;
+  max-width: 100%;
+  }
+  
+  
+  #transaçõestilte{font-size: 1.8rem;
+      margin-top: 15%;
+      margin-left: 33%;
+      max-width: 100%;}
+  
+  
+  #segurançatilte{font-size: 1.8rem;
+      margin-top: 28%;
+      margin-left: 20%;
+      max-width: 100%;}
+  
+  
+  
+  
+  #suporteaoclientetilte{font-size: 1.8rem;
+  margin-left: 50%;
+  margin-top: 15%;}
+  
+  
+  #notificaçõesotilte{font-size: 1.8rem;
+      margin-top: 15%;
+      margin-left: 283%;
+      max-width: 100%;}
+  
+  
+  .jornadadoclientecontain{max-width: 85%;
+      margin-top: 4%;}
+  
+  #jornadadoclientetitle{font-size: 3.9rem;
+  color: rgb(20, 150, 206);}
+  
+  #descriptionjornadadocliente{font-size: 1.6rem;
+      margin-top: 2%;}
+  
+  
+  
+  .imgcontainjornada{max-width: 70%;}
+  
+  #jornadaimg{max-width: 120%;
+  margin-left: 12%;
+  margin-top: 16%;}
+  
+  
+  #beneficiostitle{font-size: 3.9rem;
+  color: rgb(20, 150, 206);}
+  
+  
+  .listasbeneficios{margin-top: 2%;}
+  
+  
+  #lista1{margin-top: 2%;}
+  #lista2{margin-top: 2%;
+  max-width: 85%;}
+  #lista3{margin-top: 2%;
+    max-width: 85%;}
+  #lista4{margin-top: 2%;}
+  #lista5{margin-top: 2%;}
+  #lista6{margin-top: 2%;
+    max-width: 85%;}
+  #lista7{margin-top: 2%;
+    max-width: 85%;}
+  
+  
+  footer {
+      margin-top: 8%;
+      background-color: #0b0b0b;
+      color: #f3efef;
+      padding: 25px;
+      text-align: center;
+      width: 100%
+    }
+
+
+
+  #home:hover{background-color: #ea5b5b;}
+
+#fa2:hover{background-color: #ea5b5b;}
+
+#gvc:hover{background-color: #ea5b5b;}
+
+#sms:hover{background-color: #ea5b5b;}
+
+#nmsc:hover{background-color: #ea5b5b;}
+
+
+/*media query responsivo */
+
+
+@media(min-width: 1366px){.containerbody {max-width: 100%;
+  margin-left: 12%;
+  }
+  
+  .h1oqueé{margin-top: 6%;}
+  
+  #h1oqueé{font-size: 3.9rem;
+  color: rgb(20, 150, 206);}
+  
+  .p1{margin-top: 2%;
+  }
+  
+  #p1description{font-size: 2.2rem;
+  color: rgb(14, 14, 14);
+  }
+  
+  .p2 {max-width: 45%;
+  margin-top: 2%;}
+  
+  #p2description{font-size: 1.6rem;}
+  
+  #p3description{font-size: 1.6rem;}
+  
+  #p4description{font-size: 1.6rem;}
+
+  #p5description{font-size: 1.6rem;}
+  
+  .imgcelular {width: 50%;}
+  
+  #imgcelular {width: 30%;
+  display: flex;
+  margin-left: 128%;
+  margin-top: -66%;}
+  
+  .hr{max-width: 84%;
+  margin-top: 5%;}
+  .comofuncionacontainer{margin-top: 3%;}
+  
+  .comofuncionadescript{margin-left: 8%;}
+
+
+#h1comofunciona{font-size: 3.6rem;
+  margin-left: -9%;
+  color: rgb(20, 150, 206);
+  }
+  
+  .estatisticasnum{max-width: 100%;}
+  
+  
+  .est98{margin-left: 12%;
+  margin-top: 3%;
+  }
+  
+  #esta98{font-size: 1.6rem;
+  color: rgb(0, 0, 0);
+max-width: 16%;
+text-align: center;
+margin-top: 6% ;}
+
+
+#esta99{font-size: 1.6rem;
+  color: rgb(0, 0, 0);
+max-width: 16%;
+text-align: center;
+margin-top: 6% ;
+margin-left:25%;
+margin-top: -9.5%;}
+
+
+#esta100{font-size: 1.6rem;
+  color: rgb(0, 0, 0);
+max-width: 16%;
+text-align: center;
+margin-top: 6% ;
+margin-left:52%;
+margin-top: -9%}
+  
+  .est90{margin-left: 12%;
+  margin-top: 6%;}
+  
+      #esta90{font-size: 6.3rem;
+      color: rgb(20, 150, 206);
+  margin-left: 55%;
+  margin-top: -8%;}
+  
+  
+  .eest80{
+          margin-top: 5%;
+          }
+          
+  #esta80{font-size: 6.3rem;
+          color: rgb(20, 150, 206);
+      margin-left: 15%;
+  margin-top: 8%;}
+  
+  
+  
+  .est35x{margin-top: 5%;
+  }
+  
+  #esta35x{font-size: 6.3rem;
+      color: rgb(20, 150, 206);
+  margin-left: 58%;
+  margin-top: -11.8%;}
+  
+  .descriptionestatisticas{margin-left: 14%;
+  margin-top: -15%;}
+  
+  #descriptionest1{margin-left: -1%;
+  max-width: 100%;
+font-size: 1.6rem;
+margin-top: 20%;}
+
+.descriptionest1{margin-left: -15%;
+  max-width: 30%;
+font-size: 1.6rem;
+margin-top: 20%;}
+  
+  
+  
+  #descriptionest2{margin-left: -50%;
+    max-width: 100%;
+  font-size: 1.6rem;
+  margin-top: -50.5%;
+margin-left: -15%;}
+
+.descriptionest2{margin-left: -15%;
+  max-width: 30%;
+font-size: 1.6rem;
+margin-top: -13.5%;
+margin-left: 25%;}
+  
+  #descriptionest3{margin-left: 0%;
+    max-width: 100%;
+  font-size: 1.6rem;
+  margin-top: -5.5%;
+margin-left: 50%;}
+.descriptionest3
+{margin-left: 39%;
+  max-width: 40%;
+font-size: 1.6rem;
+margin-top: -9.5%;
+}
+  
+  #descriptionest4{margin-left: 45%;
+  margin-top: -6.3%;
+  max-width: 30%;}
+  
+  .quemusacontain{margin-top: 5%;}
+  
+  
+  #quemusatitle{font-size: 3.9rem;
+  color:rgb(20, 150, 206)}
+  
+  #descripitionquemusa{font-size: 1.6rem;
+  margin-top: 2%;}
+  
+  
+  .imgcontain {display: flex;
+  max-width: 100%;
+  width: 100%;
+  margin-left: -15%;
+  }
+  
+  #divulgaçãoimg{max-width: 85%;
+  margin-top: 25%;
+margin-left: 35%;}
+  
+  #transaçõesimg{max-width: 75%;
+      margin-top: 15%;
+      margin-left: 120%;}
+  
+  #segurançaimg{max-width: 75%;
+      margin-top: 25%;
+      margin-left: 180%;}
+  
+  #sacimg{max-width: 75%;
+      margin-top: 25%;
+      margin-left: 180%;}
+  
+  #notificaçõesimg{max-width: 75%;
+      margin-top: 25%;}
+  
+  .descriptionquemusa{display: flex;
+      max-width: 100%;
+  gap:5%}
+  
+  
+  #divulgaçãotilte{font-size: 1.8rem;
+  margin-top: 20%;
+  margin-left: -33%;
+  max-width: 100%;
+  }
+  
+  
+  #transaçõestilte{font-size: 1.8rem;
+      margin-top: 15%;
+      margin-left: -3%;
+      max-width: 100%;}
+  
+  
+  #segurançatilte{font-size: 1.8rem;
+      margin-top: 28%;
+      margin-left: -25%;
+      max-width: 100%;}
+  
+  
+  
+  
+  #suporteaoclientetilte{font-size: 1.8rem;
+  margin-left: 20%;
+  margin-top: 15%;}
+  
+  
+  #notificaçõesotilte{font-size: 1.8rem;
+      margin-top: 15%;
+      margin-left: 283%;
+      max-width: 100%;}
+  
+  
+  .jornadadoclientecontain{max-width: 85%;
+      margin-top: 4%;}
+  
+  #jornadadoclientetitle{font-size: 3.9rem;
+  color: rgb(20, 150, 206);}
+  
+  #descriptionjornadadocliente{font-size: 1.6rem;
+      margin-top: 2%;}
+  
+  
+  
+  .imgcontainjornada{max-width: 70%;}
+  
+  #jornadaimg{max-width: 120%;
+  margin-left: 12%;
+  margin-top: 16%;}
+  
+  
+  #beneficiostitle{font-size: 3.9rem;
+  color: rgb(20, 150, 206);}
+  
+  
+  .listasbeneficios{margin-top: 2%;}
+  
+  
+  #lista1{margin-top: 2%;}
+  #lista2{margin-top: 2%;
+  max-width: 85%;}
+  #lista3{margin-top: 2%;
+    max-width: 85%;}
+  #lista4{margin-top: 2%;}
+  #lista5{margin-top: 2%;}
+  #lista6{margin-top: 2%;
+    max-width: 85%;}
+  #lista7{margin-top: 2%;
+    max-width: 85%;}
+  
+  
+  footer {
+      margin-top: 8%;
+      background-color: #0b0b0b;
+      color: #f3efef;
+      padding: 25px;
+      text-align: center;
+      width: 100%
+    }
+
+
+
+    .iconsdarklight{max-width: 2%;
+      margin-left: 57.6%;
+      margin-top: -4.2%;
+      height: 48px;}
+    
+      .bi::after{content: "";
+        position: absolute;
+      background-color: rgb(255, 255, 255);
+      height: 3px;
+      width: 0%;
+      left: 45.5%;
+      bottom: 25px;
+      transition: 0.2s;
+      
+      }
+      
+      
+      .bi:hover::after{width: 11%;
+        box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+      }
+}
+  
+
+
+
+
+
+
+ul li a{position: relative;
+  font-size: 50px;
+  letter-spacing: 0.5px;
+padding: 0 10px;
+}
+
+  ul li a::after{content: "";
+  position: absolute;
+background-color: rgb(255, 255, 255);
+height: 3px;
+width: 0%;
+left: 5%;
+bottom: 0px;
+transition: 0.1s;
+
+}
+
+
+ul li a:hover::after{width: 90%;
+  box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+}
+
+

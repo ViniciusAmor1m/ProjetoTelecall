@@ -1,0 +1,2767 @@
+/* Cpaas inicial */
+* {
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+body{background-color: #efebeb;
+  transition: 0.4s;}
+  
+  input[type="checkbox"]{display: none;}
+  
+  .titletrocadecontraste{margin-left: 80%;
+  
+  max-width: 10%;}
+  
+  #titletrocadecontraste{margin-top: -50%;}
+  
+  .iconsdarklight{max-width: 2%;
+  margin-left: 51.6%;
+  margin-top: -3%;
+  height: 40px;}
+  /* dark theme */
+  
+  .dark, .dark header {
+    background-color: #263238;
+    color: #fff
+  }
+  
+  .dark .bi-sun{
+    display: none;
+  }
+  
+  .dark .bi-moon{
+    display: block;
+  }
+  
+  
+  .bi {font-size: 1.6rem;
+  cursor: pointer;
+  }
+  
+  .bi::after{content: "";
+    position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0%;
+  left: 51.4%;
+  bottom: 15px;
+  transition: 0.4s;
+  
+  }
+  
+  
+  .bi:hover::after{width: 1.7%;
+    box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+  }
+  
+  .bi-moon{
+    display: none;
+  }
+  
+  
+  
+  
+  
+
+.containerbody{max-width: 100%;
+}
+
+.container2{
+  max-width: 100%;
+}
+
+
+
+
+
+.imghomeheader {
+  max-width: 100%;
+}
+#logomodavo{
+  margin-top: 2%;
+  margin-left: 12%;
+}
+
+#logocpass{
+  float: right;
+  max-width: 39%;
+  margin-right: 23%;
+  margin-top: -2%;
+}
+
+
+
+
+#registrar-sebtn{
+  color: #f8f8f8;
+  margin-top: 2%;
+  padding: 5px;
+  text-decoration: none;
+  width: 20%;
+  background-color: rgb(20, 150, 206);
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  cursor: pointer;
+  
+}
+
+#registrar-sebtn1:hover{ background-color: rgb(248, 92, 92);
+  transition:background-color 0.6s;
+}
+
+#registrar-sebtn:hover{ background-color:rgb(248, 92, 92);
+  transition:background-color 0.3s;
+}
+
+
+
+#registrar-sebtn1{
+  
+  text-decoration: none;
+  color: rgb(254, 255, 255);
+
+}
+
+
+
+#CpaaS{
+  color: rgb(20, 150, 206);
+  font-size: 2.8rem;
+  margin-top: 6%;
+ 
+}
+.cfas{
+  margin-left: 13%;
+  margin-top: -2%
+}
+
+.imgmodavo{
+  margin-left: 12%;
+}
+
+#modavocpaas {
+  width: 28%;
+  margin-top: 10%;
+  float: left;
+  margin-left: -2%;
+}
+
+.CpaaSoqé{
+  margin-left: 32%;
+  max-width: 75%;
+  text-align: center;
+  margin-top: 13%;
+  margin-right: 23%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(20, 150, 206);
+}
+
+#descriçãocpaas{
+  color:#ea5b5b;
+  font-size: 0.9rem;
+}
+
+
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #000000;
+  margin-left: 6%;
+}
+#comofunciona{max-width: 100%;
+  text-align: center;
+  margin-top: 3%;
+  margin-right: -1%;
+  color:rgb(20, 150, 206);
+}
+
+
+.hr {max-width: 75%;
+  margin-left: 12%;
+margin-top: 3%;}
+
+
+
+.hr2 {max-width: 75%;
+  margin-left: 12%;
+margin-top: 5%;}
+
+
+.serviços{margin-top: 4.8%;
+}  
+
+#titleserviço{
+  margin-left: 12%;
+  font-size: 2.8rem;
+  color:rgb(20, 150, 206);
+
+}
+
+
+.boxserviços{
+  margin-top: 3%;
+display: flex;
+max-width: 87%;
+margin-left: 2%;
+}
+
+  .box1{
+    max-width: 9%;
+    margin: 0 auto;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 12%;
+   }
+
+   .box2{
+    max-width: 9%;
+    margin: 0 auto;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 12%;
+  }
+  .box3{
+    max-width: 9%;
+    margin: 0 auto;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 12%;
+  }
+
+  .box4{
+    max-width: 9%;
+    margin: 0 auto;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 12%;
+  }
+
+
+.imgserviços{
+  display: flex;
+  margin-top: -12%;
+  margin-left: 12%;
+  max-width: 87%;
+}
+
+
+#img2fa{max-width: 23%;
+margin-left: 9.6%;}
+
+#imgnummasc{max-width: 26%;
+  margin-left: -8%;
+  margin-top: -10%;}
+
+#imggoogleverify{max-width: 23%;
+  margin-left: 42%;
+margin-top: -6.6%;}
+
+#imgsms{max-width: 23%;
+  margin-left: 43%;}
+
+.titleserviços{display: flex;
+gap: 15%;
+margin-left: 12%;
+max-width: 76%;}
+
+#serviços2fa{font-size: 1.6rem;
+color: #000000;
+margin-left: 175%;
+margin-top: 55%;}
+
+
+#calltologin{text-decoration: none;
+outline: none;
+color: #000000;}
+
+#calltologin:hover{ color: rgb(20, 150, 206);}
+
+
+#serviços2fa:hover{
+color: rgb(20, 150, 206);
+}
+
+
+
+#serviçosnúmero{font-size: 1.6rem;
+  color: #000000;
+  margin-left: 102%;
+  margin-top: 5%;}
+
+  
+
+#serviçosgoogle{font-size: 1.6rem;
+    color: #000000;
+    margin-left: 63%;
+    margin-top: 5%;
+  width: 80%;
+text-align: center;}
+
+
+#serviçossms{font-size: 1.6rem;
+      color: #000000;
+      margin-left: 325%;
+      margin-top: 36%;}
+      
+
+
+
+
+
+.conteúdocpass{max-width: 75%;
+  margin-top: 6%;
+  margin-left: 12%;}
+
+
+.boxconteúdo{max-width: 90%;
+  margin: 0 auto;
+  padding: 100px;
+  background-color:  rgb(20, 150, 206);
+  border-radius: 3px;
+  height: 175px;
+  box-shadow: 4px 4px 60px 4px rgb(126, 129, 126);
+  margin-left: 6%;
+}
+
+.conteúdo{font-size: 1.8rem;
+margin-top: -5%;
+margin-left: -1%;
+max-width: 300%;
+color: #ffffff;}
+
+
+
+.Utilizações{margin-top: 6%;
+margin-left: 12%;}
+
+.boxserviços2{
+  margin-top: 3%;
+display: flex;
+max-width: 87%;
+margin-left: -10%;}
+
+
+.imgutilizações{display: flex;
+  margin-top: -12%;
+  margin-left: 12%;
+  max-width: 87%;
+}
+
+#utilizaçãotitle{color: rgb(20, 150, 206);
+font-size: 2.8rem}
+
+.box5{
+  max-width: 9%;
+  margin: 0 auto;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 12%;
+ }
+
+ .box6{
+  max-width: 9%;
+  margin: 0 auto;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 12%;
+}
+.box7{
+  max-width: 9%;
+  margin: 0 auto;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 12%;
+}
+
+.box8{
+  max-width: 9%;
+  margin: 0 auto;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 12%;
+}
+
+
+
+#imgsaude{max-width: 29%;
+  margin-left: -43%;
+margin-top: -68%;}
+
+#imglog{max-width: 33%;
+    margin-left: -29%;
+    margin-top: -103%;}
+
+#imgcall{max-width: 38%;
+  margin-left: 48%;
+  margin-top: -108%;}
+
+
+
+#imgvarejo{max-width: 29%;
+  margin-left: 83%;
+  margin-top: -69%;}
+
+.titlesaude{
+  margin-left: 4.3%;
+  margin-top: -4.5%;
+}
+
+
+
+#titlesaude{font-size: 1.6rem;
+color: rgb(14, 14, 14);}
+
+
+.descriptionutil{margin-left: -4.5%;
+margin-top: 1.3%;}
+
+#descriptionutil{text-align: center;
+font-size: 0.9rem;
+max-width: 10%;
+}
+
+.titlelog{
+  margin-left: 26.6%;
+  margin-top: -14.5%;
+  }
+
+#titlelog{font-size: 1.6rem;
+  color: rgb(14, 14, 14);}
+  
+#descriptionutillog{text-align: center;
+  font-size: 0.9rem;
+  max-width: 10%;
+margin-left: 27.6% ;
+margin-top: -0.2%;}
+
+
+.titlecall{margin-left: 48.9%;
+  margin-top: -15.2%;
+  }
+
+#titlecall{font-size: 1.6rem;
+  color: rgb(14, 14, 14);}
+
+
+#descriptionutilcall{text-align: center;
+  font-size: 0.9rem;
+  max-width: 10%;
+margin-left: 49.9% ;
+margin-top: 1.2%;}
+
+
+.titlevarejo{margin-left: 73.5%;
+  margin-top: -14.2%;
+  }
+
+#titlevarejo{font-size: 1.6rem;
+  color: rgb(14, 14, 14);}
+  
+
+
+
+#descriptionutilvarejo{text-align: center;
+  font-size: 0.9rem;
+  max-width: 10%;
+margin-left: 71.8% ;
+margin-top: 1.6%;}
+
+
+footer {
+  margin-top: 8%;
+  background-color: #0b0b0b;
+  color: #f3efef;
+  padding: 25px;
+  text-align: center;
+  width: 100%
+}
+
+
+.entreemcontato{margin-left: 12%;
+margin-top: 12%;}
+
+
+#titleentreemcontato{margin-left: 30%;
+font-size: 2.8rem;
+color:rgb(86, 195, 242);
+margin-top: 6%;}
+
+#faleconosco{ margin-left: 6%;
+margin-top: 6%;
+font-size: 1.6rem;
+color: rgb(45, 74, 86);}
+
+#faleconoscodescription{max-width: 100%;
+
+margin-top: 2%;
+color: #696767;
+text-align: justify;}
+
+/* Modo Noturno */
+
+
+  footer {
+    margin-top: 8%;
+    background-color: #000000;
+    color: #d7d3d3;
+    padding: 40px;
+    text-align: center;
+  }
+
+
+
+
+#home:hover{background-color: rgb(110, 186, 216)}
+
+#fa2:hover{background-color:rgb(110, 186, 216)}
+
+#gvc:hover{background-color: rgb(110, 186, 216)}
+
+#sms:hover{background-color: rgb(110, 186, 216)}
+
+#nmsc:hover{background-color: rgb(110, 186, 216)}
+
+#logadoo{padding: 0px;
+max-width: 100%;
+width: 80%;
+height: 30px;
+border: none;
+margin-left: 150%;
+}
+
+/*media query responsivo */
+
+
+
+@media (min-width: 480px) 
+{
+  
+  
+  
+  .containerbody{max-width: 100%;
+  }
+  
+  .container2{
+    max-width: 100%;
+  }
+  
+
+  #logomodavo{
+    margin-top: 6%;
+    margin-left: 12%;
+  }
+  
+  #logocpass{
+    float: right;
+    max-width: 39%;
+    margin-right: 23%;
+    margin-top: -2%;
+    display: none;
+  }
+  
+  
+  
+  #registrar-sebtn{
+    color: #f8f8f8;
+    margin-top: 2%;
+    padding: 5px;
+    text-decoration: none;
+    width: 45%;
+    background-color: rgb(20, 150, 206);
+    border: none;
+    outline: none;
+    border-radius: 5%;
+    cursor: pointer;
+    
+  }
+  
+  #registrar-sebtn1:hover{ background-color: rgb(248, 92, 92);
+    transition:background-color 0.6s;
+  }
+  
+  #registrar-sebtn:hover{ background-color:rgb(248, 92, 92);
+    transition:background-color 0.3s;
+  }
+  
+  
+  
+  #registrar-sebtn1{
+    
+    text-decoration: none;
+    color: rgb(254, 255, 255);
+  
+  }
+  
+  
+  
+  #CpaaS{
+    color: rgb(20, 150, 206);
+    font-size: 3.2rem;
+    margin-top: 12%;
+    margin-left: -2%;
+   
+  }
+  .cfas{
+    margin-left: 12%;
+    margin-top: -2%
+  }
+  
+  .imgmodavo{
+    margin-left: 14%;
+    width: 15%;
+    height: 50px;
+   margin-top: 15%;
+  }
+  
+  #modavocpaas {
+    width: 450%;
+    margin-top: 10%;
+    float: left;
+    margin-left: -2%;
+  }
+  
+  #cpasstitle{max-width: 100%;
+  font-size: 9rem;}
+  .CpaaSoqé{
+    margin-left: 20%;
+    max-width: 100%;
+   
+    margin-top: 13%;
+    margin-right: 23%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(20, 150, 206);
+  }
+  
+  #descriçãocpaas{
+    color:#ea5b5b;
+    font-size: 0.9rem;
+  }
+  
+  
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #000000;
+    margin-left: 6%;
+  }
+  #comofunciona{max-width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    margin-right: -1%;
+    color:rgb(20, 150, 206);
+  }
+  
+  .serviços{margin-top: 4.8%;
+  }  
+  
+  #titleserviço{
+    margin-left: 12%;
+    font-size: 2.8rem;
+    color:rgb(20, 150, 206);
+  
+  }
+  
+  .boxserviços{
+    margin-top: 3%;
+  display: flex;
+  max-width: 87%;
+  margin-left: 2%;
+  flex-direction: column;
+  }
+  
+    .box1{
+      max-width: 9%;
+      padding: 100px;
+      border: 5px solid rgb(255, 255, 255);
+      border-radius: 3px;
+      height: 275px;
+      box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+      margin-left: 30%;
+     }
+  
+     .box2{
+      max-width: 9%;
+      padding: 100px;
+      border: 5px solid rgb(255, 255, 255);
+      border-radius: 3px;
+      height: 275px;
+      box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+      margin-left: 30%;
+      margin-top: 15%;
+     }
+  
+    .box3{
+      max-width: 9%;
+      padding: 100px;
+      border: 5px solid rgb(255, 255, 255);
+      border-radius: 3px;
+      height: 275px;
+      box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+      margin-left: 30%;
+      margin-top: 15%;
+     }
+  
+    .box4{
+      max-width: 9%;
+      padding: 100px;
+      border: 5px solid rgb(255, 255, 255);
+      border-radius: 3px;
+      height: 275px;
+      box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+      margin-left: 30%;
+      margin-top: 15%;
+     }
+  
+  
+  .imgserviços{
+    display: flex;
+    margin-top: -12%;
+    margin-left: 12%;
+    max-width: 87%;
+  }
+  
+  .img2fa{max-width: 50%;
+    height: 50px;
+  ;
+  }
+  #img2fa{max-width: 53%;
+  margin-left: 110%;
+margin-top: -1680%;}
+
+
+  .imgimgnummasc{max-width: 50%;
+    height: 50px;}
+
+  #imgnummasc{max-width: 73%;
+    margin-left: 25%;
+    margin-top: -2165%;}
+
+
+
+  .imggoogleverify{max-width: 50%;
+    height: 50px;}
+
+
+  #imggoogleverify{max-width: 73%;
+    margin-left: -75%;
+  margin-top: -1250%;}
+
+
+  .imgsms{max-width: 50%;
+    height: 50px;}
+
+  #imgsms{max-width: 73%;
+    margin-left: -115%;
+  margin-top: -225%;}
+  
+  .titleserviços{display: flex;
+  gap: 15%;
+  margin-left: 12%;
+  max-width: 76%;}
+  
+  #serviços2fa{font-size: 1.6rem;
+  color: #000000;
+  margin-left: 345%;
+  margin-top: -2350%;}
+  
+  
+  #calltologin{text-decoration: none;
+  outline: none;
+  color: #000000;}
+  
+  #calltologin:hover{ color: rgb(20, 150, 206);}
+  
+  
+  #serviços2fa:hover{
+  color: rgb(20, 150, 206);
+  }
+  
+  
+  
+  #serviçosnúmero{font-size: 1.6rem;
+    color: #000000;
+    margin-left: 32%;
+    margin-top: -725%;}
+  
+    
+  
+  #serviçosgoogle{font-size: 1.6rem;
+      color: #000000;
+      margin-left: -130%;
+      margin-top: -450%;
+    width: 100%;
+  text-align: center;}
+  
+  
+  #serviçossms{font-size: 1.6rem;
+        color: #000000;
+        margin-left: -450%;
+        margin-top: -150%;}
+      
+ 
+.hr2{margin-top: 15%;}
+  
+  
+  
+  
+  
+  .conteúdocpass{max-width: 100%;
+    margin-top: -5%;
+    margin-left: 12%;}
+  
+  
+  .boxconteúdo{max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+    background-color:  rgb(20, 150, 206);
+    border-radius: 3px;
+    height: 385px;
+    box-shadow: 4px 4px 60px 4px rgb(126, 129, 126);
+    margin-left: -5%;
+    margin-top: 20%;
+  }
+
+
+
+  .conteúdo{font-size: 1.4rem;
+  margin-top: -40%;
+  margin-left: 3%;
+  max-width: 150%;
+  color: #ffffff;
+text-align: center;}
+  
+  
+  
+  .Utilizações{margin-top: 6%;
+  margin-left: 12%;}
+  
+  .boxserviços2{
+    margin-top: 3%;
+  display: flex;
+  max-width: 87%;
+  margin-left: -10%;
+flex-direction: column;}
+  
+  
+  .imgutilizações{display: flex;
+    margin-top: -12%;
+    margin-left: 12%;
+    max-width: 100%;
+  }
+  
+  #utilizaçãotitle{color: rgb(20, 150, 206);
+  font-size: 2.8rem}
+  
+  .box5{
+
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 350px;
+    box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+    margin-left: 30%;
+    margin-top: 5%;
+   }
+  
+   .box6{
+
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 350px;
+    box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+    margin-left: 30%;
+    margin-top: 5%;
+   }
+  .box7{
+
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 350px;
+    box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+    margin-left: 30%;
+    margin-top: 5%;
+   }
+  
+  .box8{
+
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 350px;
+    box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+    margin-left: 30%;
+    margin-top: 5%;
+   }
+  
+  
+  
+  #imgsaude{max-width: 83%;
+    margin-left: 63%;
+  margin-top: -2450%;}
+  
+  #imglog{max-width: 83%;
+      margin-left: -29%;
+      margin-top: -2650%;}
+  
+  #imgcall{max-width: 98%;
+    margin-left: -128%;
+    margin-top: -1658%;}
+  
+  
+  
+  #imgvarejo{max-width: 79%;
+    margin-left: -163%;
+    margin-top: -479%;}
+  
+  .titlesaude{max-width: 50%;
+    height: 50px;
+    margin-left: 4.3%;
+    margin-top: -4.5%;
+
+  }
+  
+.descriptionutilizaçoes{max-width: 100%;}
+  
+  #titlesaude{font-size: 1.6rem;
+  color: rgb(14, 14, 14);
+margin-top: -625%;
+margin-left: 53%;
+max-width: 100%;}
+  
+  
+  .descriptionutil{margin-left: -50%;
+  margin-top: -5%;
+max-width: 150%;}
+
+#descriptionutil{max-width: 25%;
+margin-left: 48%;
+margin-top: 5%;
+}
+ 
+  
+  .titlelog{
+    margin-left: 29.6%;
+    margin-top: -29.5%;
+    max-width: 100%;
+    }
+  
+  #titlelog{font-size: 1.6rem;
+    color: rgb(14, 14, 14);
+  margin-top: 80%;}
+    
+  #descriptionutillog{text-align: center;
+    font-size: 0.9rem;
+    max-width: 25%;
+  margin-left: 48.6% ;
+  margin-top: 4%}
+  
+  
+  .titlecall{margin-left: 26.9%;
+    margin-top: 40.2%;
+    }
+  
+  #titlecall{font-size: 1.6rem;
+    color: rgb(14, 14, 14);}
+  
+  
+  #descriptionutilcall{text-align: center;
+    font-size: 0.9rem;
+    max-width: 25%;
+  margin-left: 48.9% ;
+  margin-top: 4.2%;}
+  
+  
+  .titlevarejo{margin-left: 32.5%;
+    margin-top: 33.2%;
+    }
+  
+  #titlevarejo{font-size: 1.6rem;
+    color: rgb(14, 14, 14);}
+    
+  
+  
+  
+  #descriptionutilvarejo{text-align: center;
+    font-size: 0.9rem;
+    max-width: 25%;
+  margin-left:  48.8% ;
+  margin-top: 6.6%;}
+  
+  
+  footer {
+    margin-top: 8%;
+    background-color: #0b0b0b;
+    color: #f3efef;
+    padding: 25px;
+    text-align: center;
+    width: 100%
+  }
+  
+  
+  .entreemcontato{margin-left: 12%;
+  margin-top: 12%;}
+  
+  
+  #titleentreemcontato{margin-left: 3%;
+  font-size: 2.8rem;
+  color:rgb(86, 195, 242);}
+  
+  #faleconosco{ margin-left: 3%;
+  margin-top: 6%;
+  font-size: 1.6rem;
+  color: rgb(30, 36, 38);}
+  
+  #faleconoscodescription{max-width: 80%;
+    margin-left: 3%;
+  
+  margin-top: 4%;
+  color: #696767;
+  text-align: justify;}
+  
+  /* Modo Noturno */
+  
+  
+    footer {
+      margin-top: 8%;
+      background-color: #000000;
+      color: #d7d3d3;
+      padding: 40px;
+      text-align: center;
+    }
+
+    
+    #home:hover{background-color: rgb(110, 186, 216)}
+
+#fa2:hover{background-color:rgb(110, 186, 216)}
+
+#gvc:hover{background-color: rgb(110, 186, 216)}
+
+#sms:hover{background-color: rgb(110, 186, 216)}
+
+#nmsc:hover{background-color: rgb(110, 186, 216)}
+    #imgcontato{display:none
+    }
+
+    .imgcontato{max-width: 45%;
+      margin-left: 50%;
+  margin-top: -35%;
+  display: none}
+  
+  .descriptionutil2{max-width: 50%;
+    margin-left: 28%;
+    height: 100px;
+    text-align: center;
+    margin-top: -12%;}
+    
+    #descriptionutilvarejo1{
+      font-size: 0.9rem;
+      max-width:40%;
+      margin-left: 6.6%;
+        margin-top: 25%;
+        }
+    
+        #descriptionutilvarejo2{
+          font-size: 0.9rem;
+          max-width:40%;
+            margin-left: 6.6%;
+            margin-top: 12%;
+            }
+    
+            #descriptionutilvarejo3{
+              font-size: 0.9rem;
+              max-width:40%;
+              margin-left: 6.6%;
+              margin-top:12%;
+                }
+    
+}
+
+
+
+@media (min-width: 768px){
+  .containerbody{max-width: 100%;
+  }
+  
+  .container2{
+    max-width: 100%;
+  }
+  
+
+  #logomodavo{
+    margin-top: 6%;
+    margin-left: 30%;
+  }
+  
+  #logocpass{
+    float: right;
+    max-width: 39%;
+    margin-right: 23%;
+    margin-top: -2%;
+    display: none;
+  }
+  
+  
+  
+  #registrar-sebtn{
+    color: #f8f8f8;
+    margin-top: 2%;
+    padding: 5px;
+    text-decoration: none;
+    width: 25%;
+    background-color: rgb(20, 150, 206);
+    border: none;
+    outline: none;
+    border-radius: 5%;
+    cursor: pointer;
+    
+  }
+  
+  #registrar-sebtn1:hover{ background-color: rgb(248, 92, 92);
+    transition:background-color 0.6s;
+  }
+  
+  #registrar-sebtn:hover{ background-color:rgb(248, 92, 92);
+    transition:background-color 0.3s;
+  }
+  
+  
+  
+  #registrar-sebtn1{
+    
+    text-decoration: none;
+    color: rgb(254, 255, 255);
+  
+  }
+  
+  
+  
+  #CpaaS{
+    color: rgb(20, 150, 206);
+    font-size: 3.2rem;
+    margin-top: 12%;
+    margin-left: -2%;
+   
+  }
+  .cfas{
+    margin-left: 12%;
+    margin-top: -2%
+  }
+  
+  .imgmodavo{
+    margin-left: 14%;
+    width: 15%;
+    height: 50px;
+   margin-top: 15%;
+  }
+  
+  #modavocpaas {
+    width: 450%;
+    margin-top: 10%;
+    float: left;
+    margin-left: -2%;
+  }
+  
+  #cpasstitle{max-width: 100%;
+  font-size: 9rem;}
+  .CpaaSoqé{
+    margin-left: 20%;
+    max-width: 100%;
+   
+    margin-top: 13%;
+    margin-right: 23%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(20, 150, 206);
+  }
+  
+  #descriçãocpaas{
+    color:#ea5b5b;
+    font-size: 0.9rem;
+  }
+  
+  
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #000000;
+    margin-left: 6%;
+  }
+  #comofunciona{max-width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    margin-right: -1%;
+    color:rgb(20, 150, 206);
+  }
+  
+  .serviços{margin-top: 4.8%;
+  }  
+  
+  #titleserviço{
+    margin-left: 12%;
+    font-size: 2.8rem;
+    color:rgb(20, 150, 206);
+  
+  }
+  
+  .boxserviços{
+    margin-top: 3%;
+  display: flex;
+  max-width: 87%;
+  margin-left: 2%;
+  flex-direction: column;
+  }
+  
+    .box1{
+      max-width: 9%;
+      padding: 100px;
+      border: 5px solid rgb(255, 255, 255);
+      border-radius: 3px;
+      height: 275px;
+      box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+      margin-left: 30%;
+     }
+  
+     .box2{
+      max-width: 9%;
+      padding: 100px;
+      border: 5px solid rgb(255, 255, 255);
+      border-radius: 3px;
+      height: 275px;
+      box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+      margin-left: 30%;
+      margin-top: 15%;
+     }
+  
+    .box3{
+      max-width: 9%;
+      padding: 100px;
+      border: 5px solid rgb(255, 255, 255);
+      border-radius: 3px;
+      height: 275px;
+      box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+      margin-left: 30%;
+      margin-top: 15%;
+     }
+  
+    .box4{
+      max-width: 9%;
+      padding: 100px;
+      border: 5px solid rgb(255, 255, 255);
+      border-radius: 3px;
+      height: 275px;
+      box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+      margin-left: 30%;
+      margin-top: 15%;
+     }
+  
+  
+  .imgserviços{
+    display: flex;
+    margin-top: -12%;
+    margin-left: 12%;
+    max-width: 87%;
+  }
+  
+  .img2fa{max-width: 50%;
+    height: 50px;
+  ;
+  }
+  #img2fa{max-width: 53%;
+  margin-left: 80%;
+margin-top: -1150%;}
+
+
+  .imgimgnummasc{max-width: 50%;
+    height: 50px;}
+
+  #imgnummasc{max-width: 73%;
+    margin-left: -25%;
+    margin-top: -1425%;}
+
+
+
+  .imggoogleverify{max-width: 50%;
+    height: 50px;}
+
+
+  #imggoogleverify{max-width: 73%;
+    margin-left: -125%;
+  margin-top: -800%;}
+
+
+  .imgsms{max-width: 50%;
+    height: 50px;}
+
+  #imgsms{max-width: 73%;
+    margin-left: -145%;
+  margin-top: -100%;}
+  
+  .titleserviços{display: flex;
+  gap: 15%;
+  margin-left: 12%;
+  max-width: 76%;}
+  
+  #serviços2fa{font-size: 1.9rem;
+  color: #000000;
+  margin-left: 385%;
+  margin-top: -2225%;}
+  
+  
+  #calltologin{text-decoration: none;
+  outline: none;
+  color: #000000;}
+  
+  #calltologin:hover{ color: rgb(20, 150, 206);}
+  
+  
+  #serviços2fa:hover{
+  color: rgb(20, 150, 206);
+  }
+  
+  
+  
+  #serviçosnúmero{font-size: 1.6rem;
+    color: #000000;
+    margin-left: 38%;
+    margin-top: -755%;}
+  
+    
+  
+  #serviçosgoogle{font-size: 1.6rem;
+      color: #000000;
+      margin-left: -135%;
+      margin-top: -350%;
+    width: 100%;
+  text-align: center;}
+
+  
+  #serviçossms{font-size: 1.6rem;
+        color: #000000;
+        margin-left: -585%;
+        margin-top: -50%;}
+      
+ 
+.hr2{margin-top: 15%;}
+  
+  
+  
+  
+  
+  .conteúdocpass{max-width: 100%;
+    margin-top: -5%;
+    margin-left: 12%;}
+  
+  
+  .boxconteúdo{max-width: 80%;
+    margin: 0 auto;
+    padding: 100px;
+    background-color:  rgb(20, 150, 206);
+    border-radius: 3px;
+    height: 585px;
+    box-shadow: 4px 4px 60px 4px rgb(126, 129, 126);
+    margin-left: 2%;
+    margin-top: 20%;
+  }
+
+
+
+  .conteúdo{font-size: 2rem;
+  margin-top: -20%;
+  margin-left: 3%;
+  max-width: 100%;
+  color: #ffffff;
+text-align: center;}
+  
+  
+  
+  .Utilizações{margin-top: 6%;
+  margin-left: 12%;}
+  
+  .boxserviços2{
+    margin-top: 3%;
+  display: flex;
+  max-width: 87%;
+  margin-left: -10%;
+flex-direction: column;}
+  
+  
+  .imgutilizações{display: flex;
+    margin-top: -12%;
+    margin-left: 12%;
+    max-width: 100%;
+  }
+  
+  #utilizaçãotitle{color: rgb(20, 150, 206);
+  font-size: 2.8rem}
+  
+  .box5{
+
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 350px;
+    box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+    margin-left: 30%;
+    margin-top: 5%;
+   }
+  
+   .box6{
+
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 350px;
+    box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+    margin-left: 30%;
+    margin-top: 5%;
+   }
+  .box7{
+
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 350px;
+    box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+    margin-left: 30%;
+    margin-top: 5%;
+   }
+  
+  .box8{
+
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 350px;
+    box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+    margin-left: 30%;
+    margin-top: 5%;
+   }
+  
+  
+  
+  #imgsaude{max-width: 63%;
+    margin-left: 43%;
+  margin-top: -1525%;}
+  
+  #imglog{max-width: 73%;
+      margin-left: -79%;
+      margin-top: -1625%;}
+  
+  #imgcall{max-width: 78%;
+    margin-left: -178%;
+    margin-top: -998%;}
+  
+  
+  
+  #imgvarejo{max-width: 63%;
+    margin-left: -196%;
+    margin-top: -225%;}
+  
+  .titlesaude{max-width: 50%;
+    height: 50px;
+    margin-left: 4.3%;
+    margin-top: -4.5%;
+
+  }
+  
+.descriptionutilizaçoes{max-width: 100%;}
+  
+  #titlesaude{font-size: 1.6rem;
+  color: rgb(14, 14, 14);
+margin-top: -385%;
+margin-left: 43%;
+max-width: 100%;}
+  
+  
+  .descriptionutil{margin-left: -58%;
+  margin-top: -6%;
+max-width: 150%;}
+
+#descriptionutil{max-width: 20%;
+margin-left: 50%;
+margin-top: 5%;
+}
+ 
+  
+  .titlelog{
+    margin-left: 23.6%;
+    margin-top: -36.5%;
+    max-width: 100%;
+    }
+  
+  #titlelog{font-size: 1.6rem;
+    color: rgb(14, 14, 14);
+  margin-top: 80%;}
+    
+  #descriptionutillog{text-align: center;
+    font-size: 0.9rem;
+    max-width: 20%;
+      margin-left: 50%;
+      margin-top: 5%;
+      }
+       
+  
+  
+  .titlecall{margin-left: 21.9%;
+    margin-top: 30.2%;
+    }
+  
+  #titlecall{font-size: 1.6rem;
+    color: rgb(14, 14, 14);}
+  
+  
+  #descriptionutilcall{text-align: center;
+    font-size: 0.9rem;
+    max-width: 20%;
+      margin-left: 50%;
+      margin-top: 5%;
+      }
+       
+  
+  .titlevarejo{margin-left: 25.5%;
+    margin-top: 30.2%;
+    }
+  
+  #titlevarejo{font-size: 1.6rem;
+    color: rgb(14, 14, 14);}
+    
+  
+  
+  
+  #descriptionutilvarejo{text-align: center;
+    font-size: 0.9rem;
+    max-width: 20%;
+      margin-left: 50%;
+      margin-top: 5%;
+      }
+       
+  
+  
+  footer {
+    margin-top: 8%;
+    background-color: #0b0b0b;
+    color: #f3efef;
+    padding: 25px;
+    text-align: center;
+    width: 100%
+  }
+  
+  
+  .entreemcontato{margin-left: 12%;
+  margin-top: 12%;}
+  
+  
+  #titleentreemcontato{margin-left: 3%;
+  font-size: 2.8rem;
+  color:rgb(86, 195, 242);}
+  
+  #faleconosco{ margin-left: 3%;
+  margin-top: 6%;
+  font-size: 1.6rem;
+  color: rgb(30, 36, 38);}
+  
+  #faleconoscodescription{max-width: 80%;
+    margin-left: 3%;
+  
+  margin-top: 4%;
+  color: #696767;
+  text-align: justify;}
+  **/
+  /* Modo Noturno */
+  
+  
+    footer {
+      margin-top: 8%;
+      background-color: #000000;
+      color: #d7d3d3;
+      padding: 40px;
+      text-align: center;
+    }
+
+    #home:hover{background-color: rgb(110, 186, 216)}
+
+    #fa2:hover{background-color:rgb(110, 186, 216)}
+    
+    #gvc:hover{background-color: rgb(110, 186, 216)}
+    
+    #sms:hover{background-color: rgb(110, 186, 216)}
+    
+    #nmsc:hover{background-color: rgb(110, 186, 216)}
+ 
+    #imgcontato{display: none;}
+
+    .imgcontato{max-width: 45%;
+      margin-left: 50%;
+  margin-top: -35%;
+  display: none;}
+  
+    
+
+
+
+
+
+
+@media (min-width: 1024px){
+  
+  .containerbody{max-width: 100%;
+}
+
+.container2{
+  max-width: 100%;
+}
+
+
+#logomodavo{
+  margin-top: 6%;
+  margin-left: 30%;
+}
+
+#logocpass{
+  float: right;
+  max-width: 39%;
+  margin-right: 20%;
+  margin-top: 8%;
+  display: block;
+}
+
+
+
+#registrar-sebtn{
+  color: #f8f8f8;
+  margin-top: 2%;
+  padding: 5px;
+  text-decoration: none;
+  width: 25%;
+  background-color: rgb(20, 150, 206);
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  cursor: pointer;
+  
+}
+
+#registrar-sebtn1:hover{ background-color: rgb(248, 92, 92);
+  transition:background-color 0.6s;
+}
+
+#registrar-sebtn:hover{ background-color:rgb(248, 92, 92);
+  transition:background-color 0.3s;
+}
+
+
+
+#registrar-sebtn1{
+  
+  text-decoration: none;
+  color: rgb(254, 255, 255);
+
+}
+
+
+
+#CpaaS{
+  color: rgb(20, 150, 206);
+  font-size: 3.2rem;
+  margin-top: 12%;
+  margin-left: -2%;
+ 
+}
+.cfas{
+  margin-left: 12%;
+  margin-top: -2%
+}
+
+.imgmodavo{
+  margin-left: 14%;
+  width: 15%;
+  height: 50px;
+ margin-top: 15%;
+}
+
+#modavocpaas {
+  width: 450%;
+  margin-top: 10%;
+  float: left;
+  margin-left: -2%;
+}
+
+#cpasstitle{max-width: 100%;
+font-size: 9rem;}
+.CpaaSoqé{
+  margin-left: 20%;
+  max-width: 100%;
+ 
+  margin-top: 13%;
+  margin-right: 23%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(20, 150, 206);
+}
+
+#descriçãocpaas{
+  color:#ea5b5b;
+  font-size: 0.9rem;
+}
+
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #000000;
+  margin-left: 6%;
+}
+#comofunciona{max-width: 100%;
+  text-align: center;
+  margin-top: 3%;
+  margin-right: -1%;
+  color:rgb(20, 150, 206);
+}
+
+.serviços{margin-top: 4.8%;
+}  
+
+#titleserviço{
+  margin-left: 12%;
+  font-size: 2.8rem;
+  color:rgb(20, 150, 206);
+
+}
+
+.boxserviços{
+  margin-top: 3%;
+display: flex;
+max-width: 87%;
+margin-left: 16%;
+flex-direction: column;
+}
+
+  .box1{
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 30%;
+   }
+
+   .box2{
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 30%;
+    margin-top: 15%;
+   }
+
+  .box3{
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 30%;
+    margin-top: 15%;
+   }
+
+  .box4{
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 30%;
+    margin-top: 15%;
+   }
+
+
+.imgserviços{
+  display: flex;
+  margin-top: -12%;
+  margin-left: 25%;
+  max-width: 87%;
+}
+
+.img2fa{max-width: 50%;
+  height: 50px;
+;
+}
+#img2fa{max-width: 53%;
+margin-left: 80%;
+margin-top: -1050%;}
+
+
+.imgimgnummasc{max-width: 50%;
+  height: 50px;}
+
+#imgnummasc{max-width: 73%;
+  margin-left: -25%;
+  margin-top: -1275%;}
+
+
+
+.imggoogleverify{max-width: 50%;
+  height: 50px;}
+
+
+#imggoogleverify{max-width: 73%;
+  margin-left: -125%;
+margin-top: -675%;}
+
+
+.imgsms{max-width: 50%;
+  height: 50px;}
+
+#imgsms{max-width: 53%;
+  margin-left: -130%;
+margin-top: -75%;}
+
+.titleserviços{display: flex;
+gap: 15%;
+margin-left: 12%;
+max-width: 76%;}
+
+#serviços2fa{font-size: 1.9rem;
+color: #000000;
+margin-left: 725%;
+margin-top: -2325%;}
+
+
+#calltologin{text-decoration: none;
+outline: none;
+color: #000000;}
+
+#calltologin:hover{ color: rgb(20, 150, 206);}
+
+
+#serviços2fa:hover{
+color: rgb(20, 150, 206);
+}
+
+
+
+#serviçosnúmero{font-size: 1.6rem;
+  color: #000000;
+  margin-left: 125%;
+  margin-top: -535%;}
+
+  
+
+#serviçosgoogle{font-size: 1.6rem;
+    color: #000000;
+    margin-left: -65%;
+    margin-top: -215%;
+  width: 100%;
+text-align: center;}
+
+
+#serviçossms{font-size: 1.6rem;
+      color: #000000;
+      margin-left: -625%;
+      margin-top: -50%;}
+    
+
+.hr2{margin-top: 15%;}
+
+
+
+
+
+.conteúdocpass{max-width: 100%;
+  margin-top: -5%;
+  margin-left: 12%;}
+
+
+.boxconteúdo{max-width: 80%;
+  margin: 0 auto;
+  padding: 100px;
+  background-color:  rgb(20, 150, 206);
+  border-radius: 3px;
+  height: 395px;
+  box-shadow: 4px 4px 60px 4px rgb(126, 129, 126);
+  margin-left: 2%;
+  margin-top: 20%;
+}
+
+
+
+.conteúdo{font-size: 2rem;
+margin-top: -12%;
+margin-left: 3%;
+max-width: 100%;
+color: #ffffff;
+text-align: center;}
+
+
+
+.Utilizações{margin-top: 6%;
+margin-left: 12%;}
+
+.boxserviços2{
+  margin-top: 3%;
+display: flex;
+max-width: 87%;
+margin-left: 6%;
+flex-direction: column;}
+
+
+.imgutilizações{display: flex;
+  margin-top: -12%;
+  margin-left: 12%;
+  max-width: 100%;
+}
+
+#utilizaçãotitle{color: rgb(20, 150, 206);
+font-size: 2.8rem}
+
+.box5{
+
+  max-width: 9%;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 30%;
+  margin-top: 5%;
+ }
+
+ .box6{
+
+  max-width: 9%;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 30%;
+  margin-top: 5%;
+ }
+.box7{
+
+  max-width: 9%;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 30%;
+  margin-top: 5%;
+ }
+
+.box8{
+
+  max-width: 9%;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 30%;
+  margin-top: 5%;
+ }
+
+
+
+#imgsaude{max-width: 43%;
+  margin-left: 95%;
+margin-top: -1155%;}
+
+#imglog{max-width: 43%;
+    margin-left: 5%;
+    margin-top: -1225%;}
+
+#imgcall{max-width: 43%;
+  margin-left: -88%;
+  margin-top: -725%;}
+
+
+
+#imgvarejo{max-width: 43%;
+  margin-left: -137%;
+  margin-top: -155%;}
+
+.titlesaude{max-width: 50%;
+  height: 50px;
+  margin-left: 17%;
+  margin-top: 46%;
+
+}
+
+.descriptionutilizaçoes{max-width: 100%;}
+
+#titlesaude{font-size: 1.6rem;
+color: rgb(14, 14, 14);
+margin-top: -385%;
+margin-left: 43%;
+max-width: 100%;}
+
+
+.descriptionutil{margin-left: -58%;
+margin-top: -6%;
+max-width: 150%;}
+
+#descriptionutil{max-width: 15%;
+margin-left: 60%;
+margin-top: 5%;
+}
+
+
+.titlelog{
+  margin-left: 37.6%;
+  margin-top: -31.5%;
+  max-width: 100%;
+  }
+
+#titlelog{font-size: 1.6rem;
+  color: rgb(14, 14, 14);
+margin-top: 75%;}
+  
+#descriptionutillog{text-align: center;
+  font-size: 0.9rem;
+  max-width: 10%;
+    margin-left: 63%;
+    margin-top: 4%;
+    }
+     
+
+
+.titlecall{margin-left: 35.9%;
+  margin-top: 20.2%;
+  }
+
+#titlecall{font-size: 1.6rem;
+  color: rgb(14, 14, 14);}
+
+
+#descriptionutilcall{text-align: center;
+  font-size: 0.9rem;
+  max-width: 10%;
+    margin-left: 63%;
+    margin-top: 5%;
+    }
+     
+
+.titlevarejo{margin-left: 39.5%;
+  margin-top: 18.2%;
+  }
+
+#titlevarejo{font-size: 1.6rem;
+  color: rgb(14, 14, 14);}
+  
+
+
+
+#descriptionutilvarejo{text-align: center;
+  font-size: 0.9rem;
+  max-width: 10%;
+    margin-left: 62.6%;
+    margin-top: 5%;
+    }
+     
+
+
+footer {
+  margin-top: 8%;
+  background-color: #0b0b0b;
+  color: #f3efef;
+  padding: 25px;
+  text-align: center;
+  width: 100%
+}
+
+
+.entreemcontato{margin-left: 12%;
+margin-top: 12%;}
+
+
+#titleentreemcontato{margin-left: 3%;
+font-size: 2.8rem;
+color:rgb(86, 195, 242);}
+
+#faleconosco{ margin-left: 3%;
+margin-top: 6%;
+font-size: 1.6rem;
+color: rgb(30, 36, 38);}
+
+#faleconoscodescription{max-width: 80%;
+  margin-left: 3%;
+
+margin-top: 4%;
+color: #696767;
+text-align: justify;}
+
+/* Modo Noturno */
+
+
+  footer {
+    margin-top: 8%;
+    background-color: #000000;
+    color: #d7d3d3;
+    padding: 40px;
+    text-align: center;
+  }
+
+  
+
+ 
+#home:hover{background-color:rgb(187, 144, 210)}
+
+#fa2:hover{background-color:rgb(40, 127, 162)}
+
+#gvc:hover{background-color: rgb(40, 127, 162)}
+
+#sms:hover{background-color: rgb(40, 127, 162)}
+
+#nmsc:hover{background-color: rgb(40, 127, 162)}
+  
+}
+
+
+
+@media (min-width: 1366px){ .containerbody{max-width: 100%;
+}
+
+.container2{
+  max-width: 100%;
+}
+
+
+#logomodavo{
+  margin-top: 2%;
+  margin-left: 35%;
+  width: 45%;
+}
+
+#logocpass{
+  float: right;
+  max-width: 55%;
+  margin-right: 5%;
+  margin-top: -6%;
+  display: block;
+}
+
+
+
+#registrar-sebtn{
+  color: #f8f8f8;
+  margin-top: 5%;
+  padding: 7px;
+  text-decoration: none;
+  width: 25%;
+  background-color: rgb(20, 150, 206);
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  cursor: pointer;
+  
+}
+
+#registrar-sebtn1:hover{ background-color: rgb(248, 92, 92);
+  transition:background-color 0.6s;
+}
+
+#registrar-sebtn:hover{ background-color:rgb(248, 92, 92);
+  transition:background-color 0.3s;
+}
+
+
+
+#registrar-sebtn1{
+  
+  text-decoration: none;
+  color: rgb(254, 255, 255);
+
+}
+
+
+
+#CpaaS{
+  color: rgb(20, 150, 206);
+  font-size: 4.5rem;
+  margin-top: 12%;
+  margin-left: 0.6%;
+ 
+}
+.cfas{
+  margin-left: 12%;
+  margin-top: -2%
+}
+
+.imgmodavo{
+  margin-left: 14%;
+  max-width: 75%;
+  height: 750px;
+ margin-top: 15%;
+ display: block;
+
+ float: left;
+}
+
+#modavocpaas {
+  width: 245%;
+  margin-top: 30%;
+  float: left;
+  margin-left: -55%;
+  display:block
+}
+#cpasstitle{margin-left: 5%;}
+
+.CpaaSoqé{
+  margin-left: 40%;
+  max-width: 100%;
+  width: 55%;
+  margin-top: 15%;
+ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(20, 150, 206);
+}
+
+#descriçãocpaas{
+  color:#ea5b5b;
+  font-size: 0.9rem;
+  max-width: 100%;
+}
+
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  color: #000000;
+  margin-left: 6%;
+  max-width: 150%;
+}
+#comofunciona{max-width: 150%;
+  text-align: center;
+  margin-top: 3%;
+  margin-right: -1%;
+  color:rgb(20, 150, 206);
+}
+
+.serviços{margin-top: 4.8%;
+}  
+
+#titleserviço{
+  margin-left: 12%;
+  font-size: 2.8rem;
+  color:rgb(20, 150, 206);
+
+}
+
+.boxserviços{
+  margin-top: 3%;
+display: flex;
+max-width: 87%;
+margin-left: -16%;
+flex-direction: row;
+}
+
+  .box1{
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 28%;
+   
+   }
+
+   .box2{
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 10%;
+    margin-top: 0%
+   
+   }
+
+  .box3{
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 10%;
+    margin-top: 0%
+   
+   }
+
+  .box4{
+    max-width: 9%;
+    padding: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 275px;
+    box-shadow: 4px 4px 4px 4px rgb(122, 122, 125);
+    margin-left: 30%;
+    margin-left: 10%;
+    margin-top: 0%
+   }
+
+
+.imgserviços{
+  display: flex;
+  margin-top: -12%;
+  margin-left: 25%;
+  max-width: 87%;
+}
+
+.img2fa{max-width: 50%;
+  height: 50px;
+;
+}
+#img2fa{max-width: 40%;
+margin-left: -55%;
+margin-top: -33%;}
+
+
+.imgimgnummasc{max-width: 50%;
+  height: 50px;}
+
+#imgnummasc{max-width: 40%;
+  margin-left: -85%;
+  margin-top: -55%;}
+
+
+.imggoogleverify{max-width: 50%;
+  height: 50px;}
+
+
+#imggoogleverify{max-width: 40%;
+  margin-left: -5%;
+  margin-top: -55%;}
+
+.imgsms{max-width: 50%;
+  height: 50px;}
+
+#imgsms{max-width: 40%;
+  margin-left: 30%;
+  margin-top: -35%;}
+
+.titleserviços{display: flex;
+gap: 15%;
+margin-left: 12%;
+max-width: 76%;}
+
+#serviços2fa{font-size: 1.9rem;
+color: #000000;
+margin-left: 55%;
+margin-top: 50%;}
+
+
+#calltologin{text-decoration: none;
+outline: none;
+color: #000000;}
+
+#calltologin:hover{ color: rgb(20, 150, 206);}
+
+
+#serviços2fa:hover{
+color: rgb(20, 150, 206);
+}
+
+
+
+#serviçosnúmero{font-size: 1.6rem;
+  color: #000000;
+  margin-left: 65%;
+  margin-top: 5%;}
+
+  
+
+#serviçosgoogle{font-size: 1.6rem;
+    color: #000000;
+    margin-left: 16%;
+    margin-top: 5%;
+  width: 80%;
+text-align: center;}
+
+
+#serviçossms{font-size: 1.6rem;
+      color: #000000;
+      margin-left: 75%;
+      margin-top: 35%;}
+    
+
+.hr2{margin-top: 15%;}
+
+
+
+
+
+.conteúdocpass{max-width: 100%;
+  margin-top: -5%;
+  margin-left: 12%;}
+
+
+.boxconteúdo{max-width: 80%;
+  margin: 0 auto;
+  padding: 100px;
+  background-color:  rgb(20, 150, 206);
+  border-radius: 3px;
+  height: 175px;
+  box-shadow: 4px 4px 60px 4px rgb(126, 129, 126);
+  margin-left: 2%;
+  margin-top: 20%;
+}
+
+
+
+.conteúdo{font-size: 2rem;
+margin-top: -12%;
+margin-left: -3%;
+max-width: 200%;
+color: #ffffff;
+text-align: center;}
+
+
+
+.Utilizações{margin-top: 6%;
+margin-left: 12%;}
+
+.boxserviços2{
+  margin-top: 3%;
+display: flex;
+max-width: 87%;
+margin-left: -30%;
+flex-direction: row;
+}
+
+
+.imgutilizações{display: flex;
+  margin-top: -12%;
+  margin-left: 12%;
+  max-width: 100%;
+}
+
+#utilizaçãotitle{color: rgb(20, 150, 206);
+font-size: 2.8rem}
+
+.box5{
+
+  max-width: 9%;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 30%;
+  margin-top: 5%;
+ }
+
+ .box6{
+
+  max-width: 9%;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 12%;
+  margin-top: 5%;
+ }
+.box7{
+
+  max-width: 9%;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 12%;
+  margin-top: 5%;
+ }
+
+.box8{
+
+  max-width: 9%;
+  padding: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgb(111, 176, 203);
+  margin-left: 10%;
+  margin-top: 5%;
+ }
+
+
+
+#imgsaude{max-width: 43%;
+  margin-left: -50%;
+margin-top:-100%;}
+
+#imglog{max-width: 43%;
+  margin-left: -50%;
+  margin-top:-150%;}
+  
+#imgcall{max-width: 43%;
+  margin-left: 5%;
+margin-top:-150%;}
+
+
+
+
+#imgvarejo{max-width: 33%;
+  margin-left: 35%;
+  margin-top:-110%;}
+  
+
+.titlesaude{max-width: 50%;
+ margin-top: 180%;
+
+}
+
+.descriptionutilizaçoes{max-width: 100%;}
+
+#titlesaude{font-size: 1.6rem;
+color: rgb(14, 14, 14);
+margin-top: -378%;
+margin-left: -30%;
+max-width: 100%;}
+
+
+.descriptionutil{margin-left: -65%;
+margin-top: -6%;
+max-width: 150%;}
+
+#descriptionutil{max-width: 10%;
+margin-left: 42%;
+margin-top: 4.5%;
+}
+
+
+.titlelog{
+  margin-left: 30.6%;
+  margin-top: -65.5%;
+  max-width: 100%;
+  }
+
+#titlelog{font-size: 1.6rem;
+  color: rgb(14, 14, 14);
+margin-top: 70%;
+margin-left: -2%;}
+  
+#descriptionutillog{text-align: center;
+  font-size: 0.9rem;
+  max-width: 10%;
+    margin-left: 61%;
+    margin-top: 4.1%;
+    }
+     
+
+
+.titlecall{margin-left: 55.9%;
+  margin-top: -17.2%;
+  }
+
+#titlecall{font-size: 1.6rem;
+  color: rgb(14, 14, 14);}
+
+
+#descriptionutilcall{text-align: center;
+  font-size: 0.9rem;
+  max-width: 10%;
+    margin-left: 79%;
+    margin-top: 5%;
+    }
+     
+
+.titlevarejo{margin-left: 83.8%;
+  margin-top: -20.9%;
+  }
+
+#titlevarejo{font-size: 1.6rem;
+  color: rgb(14, 14, 14);}
+  
+
+.descriptionutil2{max-width: 50%;
+margin-left: 81%;
+height: 100px;
+text-align: center;
+margin-top: -12%;}
+
+#descriptionutilvarejo1{
+  font-size: 0.9rem;
+  max-width:80%;
+  margin-left: -10.6%;
+    margin-top: 80%;
+    }
+
+    #descriptionutilvarejo2{
+      font-size: 0.9rem;
+      max-width:80%;
+        margin-left: -10.6%;
+        margin-top: 40%;
+        }
+
+        #descriptionutilvarejo3{
+          font-size: 0.9rem;
+          max-width:80%;
+          margin-left: -10.6%;
+            margin-top: 50%;
+            }
+     
+
+
+footer {
+  margin-top: 8%;
+  background-color: #0b0b0b;
+  color: #f3efef;
+  padding: 25px;
+  text-align: center;
+  width: 100%
+}
+
+
+.entreemcontato{margin-left: 12%;
+margin-top: 12%;}
+
+
+#titleentreemcontato{margin-left: 3%;
+font-size: 2.8rem;
+color:rgb(86, 195, 242);}
+
+#faleconosco{ margin-left: 3%;
+margin-top: 6%;
+font-size: 1.6rem;
+color: rgb(30, 36, 38);}
+
+#faleconoscodescription{max-width: 80%;
+  margin-left: 3%;
+
+margin-top: 4%;
+color: #696767;
+text-align: justify;}
+
+
+  footer {
+    margin-top: 8%;
+    background-color: #000000;
+    color: #d7d3d3;
+    padding: 40px;
+    text-align: center;
+  }
+  
+
+
+  #imgcontato{display: block;}
+
+  .imgcontato{max-width: 45%;
+    margin-left: 50%;
+margin-top: -35%;
+display: block;}}
+
+.iconsdarklight{max-width: 2%;
+  margin-left: 58.6%;
+  margin-top: -4.4%;
+  height: 50px;}
+
+  .bi::after{content: "";
+    position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0%;
+  left: 46.5%;
+  bottom: 25px;
+  transition: 0.2s;
+  
+  }
+  
+  
+  .bi:hover::after{width: 11%;
+    box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+  }
+}
+
+@media (min-width: 1920px){}
+
+
+
+
+ul li a{position: relative;
+  font-size: 50px;
+  letter-spacing: 0.5px;
+padding: 0 10px;
+}
+
+  ul li a::after{content: "";
+  position: absolute;
+background-color: rgb(255, 255, 255);
+height: 3px;
+width: 0%;
+left: 5%;
+bottom: 0px;
+transition: 0.1s;
+
+}
+
+
+ul li a:hover::after{width: 90%;
+  box-shadow: 1px 0px 1.3px 0px rgb(252, 252, 252);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
