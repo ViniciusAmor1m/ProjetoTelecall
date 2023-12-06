@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telecall - CpaaS</title>
+  <link rel="shortcut icon" href="fotos/icons/favicon.ico">
+  <script src="js/script.js"></script>
+  <script src="js/darkmode.js" defer></script>
+  <link rel="stylesheet" href="css/NumMascara.css">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+  <!--Scripts-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</head>
+<!-- Nav Bar / Com Bootstrap -->
+<body>
+  <div class = containermenu>
+    <header class="p-3 text-bg-primary fixed-top">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.html" class="nav-link px-2 text-white" id = homee><b>Home</b></a></li>
+            <li><a href="2FA.html" class="nav-link px-2 text-white" id = faa2><b>2FA</b></a></li>
+            <li><a href="sms.html" class="nav-link px-2 text-white" id = smms><b>Sms</b></a></li>
+            <li><a href="googleverifedcalls.html" class="nav-link px-2 text-white" id = gvvc><b>Google Verifed Calls</b></a></li>
+            <li><a href="NumMascara.html" class="nav-link px-2 text-white" id = nmscc><b>Número Mascara</b></a></li>
+            <!-- Dark Mode-->
+            <li><p class="nav-link px-2 text-white" id = homee><b>Troca de Contraste:</b></p></li>
+            <!-- Botoes Login/Sair-->
+          </ul>
+          <div class="text-end">
+            <a href="login.html">
+              <button type="button" class="btn btn-red" style="background-color: #ffffff;" id = sairbtn onclick="sair()">Sair</button>
+            </a>
+            <button type="button" class="btn btn-red" style="background-color: #ffffff;" id = #logadoo onclick="bemvindo()"></button>
+          </div>
+        </div>
+      </div>
+      <!-- Dark Mode / Icones Sol/Lua-->
+      <div class = iconsdarklight>
+        <input type="checkbox" name="change-theme" id="change-theme">
+        <label for="change-theme">
+          <i class="bi bi-sun"></i></b>
+          <i class="bi bi-moon"></i>
+        </label>
+        </div>
+    </header>
+    <!-- Conteudos Site -->
+  <div class=containerbody>
+    <div class=h1oqueé>
+      <h1 id="h1oqueé"><strong>Número Máscara</strong></h1>
+    </div>
+    <div class=p1>
+      <p id="p1description"><b>O que é?</b></p>
+    </div>
+    <div class=p2>
+      <p id="p2description">Garanta aos seus clientes a capacidade de fazer chamadas e enviar mensagens sem expor seus
+        números de telefone pessoais. </p>
+    </div>
+    <div class=p2>
+      <p id="p3description">Mascare um número de telefone para interações com mais privacidade.</p>
+    </div>
+    <div class=p2>
+      <p id="p4description">Permite que empresas façam negócios usando menos números de telefone.</p>
+    </div>
+    <div class=p2>
+      <p id="p5description">Oferece uma experiência mais segura e profissional.</p>
+    </div>
+
+    <div class=imgcelular>
+      <img src="fotos/NumMasc/celular.png" alt="celularimg" id=imgcelular>
+    </div>
+    <div class=hr>
+      <hr>
+    </div>
+    <div class=comofuncionacontainer>
+      <div class=comofuncionadescript>
+        <div>
+          <h1 id=h1comofunciona><strong>Como funciona?</strong></h1>
+        </div>
+      </div>
+      <div class=estatisticasnum>
+        <div class="est98">
+          <h1 id=esta98><strong>Usuário faz uma chamada através de um aplicativo.</strong></h1>
+        </div>
+        <div class="est99">
+          <h1 id=esta99><strong>Plataforma mascara o número original.</strong></h1>
+        </div>
+        <div class="est100">
+          <h1 id=esta100><strong>Ambas as partes são conectadas.</strong></h1>
+        </div>
+      </div>
+      <div class=est90> <img src="fotos/NumMasc/usuarios.jpg" alt=" imgnummasca" id=nummasc>
+      </div>
+
+      <!-- Conteudo 2 -->
+      <div class=descriptionestatisticas>
+        <div class=descriptionest1>
+          <h2 id=descriptionest1><strong>Ex: usuário liga para o entregador ou motorista de taxi ou entra em contato com
+              a central de atendimento.</strong></h2>
+        </div>
+        <div class=descriptionest2>
+          <h2 id=descriptionest2><strong>A plataforma recebe a chamada e mascara o
+              número antes de conectar com o destinatário.
+            </strong></h2>
+        </div>
+        <div class=descriptionest3>
+          <h2 id=descriptionest3><strong>Da plataforma conecta ambas as partes mantendo a privacidade dos dois.
+        </div>
+      </div>
+      <div class=hr>
+        <hr>
+      </div>
+      <div class=quemusacontain>
+        <div class=quemusatitle>
+          <h1 id=quemusatitle><strong>Quem usa?</strong></h1>
+        </div>
+        <!-- Imagem Conteudos -->
+        <div class=imgcontain>
+          <div><img src="fotos/NumMasc/carro1.png" alt="divulgação" id=divulgaçãoimg></div>
+          <div><img src="fotos/NumMasc/celular relacionamento.png" alt="transações" id=transaçõesimg></div>
+          <div><img src="fotos/NumMasc/e-commerce.png" alt="segurança" id=segurançaimg></div>
+          <div><img src="fotos/NumMasc/entrega e logistica.png" alt="sac" id=sacimg></div>
+        </div>
+        <div class=descriptionquemusa>
+          <div class=divulgaçãotilte>
+            <h1 id=divulgaçãotilte><strong>Apps de transporte</strong></h1>
+          </div>
+          <div class=transaçõestilte>
+            <h1 id=transaçõestilte><strong>Apps de relacionamento</strong></h1>
+          </div>
+          <div class=segurançatilte>
+            <h1 id=segurançatilte><strong>E-commerce</strong></h1>
+          </div>
+          <div class=suporteaoclientetilte>
+            <h1 id=suporteaoclientetilte><strong>Entrega & Logisticas </strong></h1>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+    <!-- Conteudos 3 -->
+    <div class=hr>
+      <hr>
+    </div>
+    <div class=beneficioscontain>
+      <div class=beneficiostilte>
+        <h1 id=beneficiostitle><strong>Recursos Avançados</strong></h1>
+      </div>
+      <div class=listasbeneficios>
+        <ul>
+          <div class=lista1>
+            <li>
+              <h3 id=lista1>SMS – Número máscara é totalmente funcional para chamadas de voz e SMS. </h3>
+            </li>
+          </div>
+          <div class=lista2>
+            <li>
+              <h3 id=lista2>Geo Match – Combine o código do país do número mascarado com o da chamada de origem passando
+                pro cliente a impressão de que vocês estão na mesma região. </h3>
+            </li>
+          </div>
+          <div class=lista3>
+            <li>
+              <h3 id=lista3>Gestão de Sessões – Habilite números máscara permanentes, bloqueie chamadas indesejadas,
+                validade de sessão e etc.</h3>
+            </li>
+          </div>
+          <div class=lista4>
+            <li>
+              <h3 id=lista4>Relatórios – Acesso direto do cliente à relatórios detalhados.</h3>
+            </li>
+          </div>
+          <div class=lista5>
+            <li>
+              <h3 id=lista5>Números Simultâneos - Use o mesmo número máscara em várias ligações simultâneas.</h3>
+            </li>
+          </div>
+          <div class=lista6>
+            <li>
+              <h3 id=lista6>Triagem de Conteúdo – Recurso SMS onde você pode sinalizar conteúdos sensíveis para proteger
+                dados do cliente. </h3>
+            </li>
+            <div class=lista7>
+              <li>
+                <h3 id=lista7>Escalabilidade Ilimitada – compre e adicione números conforme necessário.</h3>
+              </li>
+            </div>
+        </ul>
+      </div>
+    </div>
+    <!-- Rodapé -->
+  </div>
+  <div class=footer>
+    <footer>
+      <h3>&copy; Projeto Telecall. Todos os direitos reservados.</h3>
+    </footer>
+  </div>
+</body>
+
+</html>

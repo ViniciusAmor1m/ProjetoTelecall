@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telecall - CpaaS</title>
+  <link rel="shortcut icon" href="fotos/icons/favicon.ico">
+  <script src="js/index.js"></script>
+  <script src="js/darkmode.js" defer></script>
+  <link rel="stylesheet" href="css/index.css">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!--Scripts-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Menu Navegação / Com Bootstrap -->
+  <div class = containermenu>
+    <header class="p-3 text-bg-primary fixed-top">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.html" class="nav-link px-2 text-white" id = homee><b>Home</b></a></li>
+            <li><a href="2FA.html" class="nav-link px-2 text-white" id = faa2><b>2FA</b></a></li>
+            <li><a href="sms.html" class="nav-link px-2 text-white" id = smms><b>Sms</b></a></li>
+            <li><a href="googleverifedcalls.html" class="nav-link px-2 text-white" id = gvvc><b>Google Verifed Calls</b></a></li>
+            <li><a href="NumMascara.html" class="nav-link px-2 text-white" id = nmscc><b>Número Mascara</b></a></li>
+            <li><p class="nav-link px-2 text-white" id = homee><b>Troca de Contraste:</b></p></li>
+          </ul>
+          <!-- Botões login/sair-->
+          <div class="text-end">
+            <a href="login.html">
+              <button type="button" class="btn btn-red" style="background-color: #ffffff;" id = sairbtn onclick="sair()">Sair</button>
+            </a>
+            <button type="button" class="btn btn-red" style="background-color: #ffffff;" id = #logadoo onclick="bemvindo()"></button>
+          </div>
+        </div>
+      </div>
+      <!-- Icones dark mode Sol/Lua-->
+      <div class = iconsdarklight>
+        <input type="checkbox" name="change-theme" id="change-theme">
+        <label for="change-theme">
+          <i class="bi bi-sun"></i></b>
+          <i class="bi bi-moon"></i>
+        </label>
+        </div>
+    </header>
+    <!-- Imagem Modavo com infomações-->
+  <div class="container2">
+    <div id="toast" class="hidden"></div>
+
+    <div class=imgcpasshome><img src="fotos/CpaaS INDEX/telecall-cpaas-home-min.png" alt="logocpass" id=logocpass></div>
+    <div class=cfas>
+      <h1 id=CpaaS>
+        <strong>CpaaS</strong>
+      </h1>
+
+      <h2><strong>Flexivel.</strong></h2>
+      <h2><strong>Autentico.</strong></h2>
+      <h2><strong>Seguro.</strong></h2>
+    </div>
+
+    <!-- Conteudos-->
+    <div class=imgmodavo><img src="fotos/CpaaS INDEX/6876640-removebg-preview.png" alt="modavocpaas" id=modavocpaas>
+    </div>
+    <div class=CpaaSoqé>
+      <h1><strong>O que é CpaaS?</strong></h1>
+      <h6 id=descriçãocpaas><strong><i>Communications Platform as a Service</strong></i></h6>
+
+      <p>Plataforma de Comunicação como Serviço
+        É uma solução de software de comunicação que atua como uma base sobre a qual desenvolvedores podem integrar
+        uma variedade de aplicativos.
+      </p>
+      <p>
+        Métodos de comunicação típicos, como voz, chamadas de vídeo ou mensagens de texto <strong> SMS </strong>,
+        podem ser incorporados em outros sistemas por meio de APIs que se conectam à plataforma CPaaS.</p>
+      <p>Essas APIs permitem que as empresas expandam suas ofertas sem a necessidade de hardware ou software
+        adicional.
+      </p>
+      <h1 id=comofunciona><strong>Como funciona?</strong></h1>
+      <p>Nossa API permitem que as empresas expandam suas ofertas sem a necessidade de hardware ou <strong>software
+          adicional. </strong>
+    </div>
+  </div>
+  <div class=hr>
+    <hr>
+  </div>
+  <div class=serviços>
+    <h1 id=titleserviço> <strong>Serviços</strong></h1>
+  </div>
+  <div class=boxserviços>
+    <div class=box1></div>
+    <div class=box2></div>
+    <div class=box3></div>
+    <div class=box4></div>
+  </div>
+  <!-- Abas/imagens serviço -->
+  <div class=imgserviços>
+    <div><img src="fotos/CpaaS INDEX/pin-code.png" alt="2fa" id=img2fa></div>
+    <div><img src="fotos/CpaaS INDEX/smartphone-numero-mascara.png" alt="nummasc" id=imgnummasc></div>
+    <div><img src="fotos/CpaaS INDEX/consultar.png" alt="googleverify" id=imggoogleverify></div>
+    <div><img src="fotos/CpaaS INDEX/gerenciamento de campanha.png" alt="sms" id=imgsms></div>
+  </div>
+  <div class=titleserviços>
+    <div class=calltologinservice> <a href="2FA.html" target="_blank" id=calltologin>
+        <h1 id=serviços2fa><strong>2FA</strong>
+      </a></h1>
+    </div>
+    <div class=calltologinservice> <a href="NumMascara.html" target="_blank" id=calltologin>
+        <h1 id=serviçosnúmero><strong>Número Máscara</strong>
+      </a></h1>
+    </div>
+    <div class=calltologinservice> <a href="googleverifedcalls.html" target="_blank" id=calltologin>
+        <h1 id=serviçosgoogle><strong>Google Verified Calls
+      </a></strong></a></h1>
+    </div>
+    <div class=calltologinservice> <a href="sms.html" target="_blank" id=calltologin>
+        <h1 id=serviçossms><strong>SMS</strong>
+      </a></h1>
+    </div>
+  </div>
+
+ <!-- Conteudos -->
+  <div class=hr2>
+    <hr>
+  </div>
+  <div class=conteúdocpass>
+    <div class=boxconteúdo>
+      <div class=conteúdo>
+        <h5 class=conteúdo>O CPaaS, com sua <b>escalabilidade</b>, <strong>flexibilidade</strong>,<b> autenticação</b> e
+          <b>segurança</b> aprimoradas,
+          está revolucionando o modo como as empresas habilitadas em nuvem implementam comunicações de voz,
+          SMS e vídeo.<h5>
+      </div>
+    </div>
+  </div>
+  <div class=hr2>
+    <hr>
+  </div>
+  <div class=Utilizações>
+    <div class=utilizaçãotitle>
+      <h1 id=utilizaçãotitle><strong>Utilizações</strong></h1>
+    </div>
+    <div class=boxserviços2>
+      <div class=box5></div>
+      <div class=box6></div>
+      <div class=box7></div>
+      <div class=box8></div>
+    </div>
+    <div class=imgutilizações>
+      <div><img src="fotos/utilizações index/coracao2.png" alt="saude" id="imgsaude"></div>
+      <div><img src="fotos/utilizações index/logisticalogo.png" alt="logistica" id=imglog></div>
+      <div><img src="fotos/utilizações index/callcenter.png" alt="logistica" id=imgcall></div>
+      <div><img src="fotos/utilizações index/varejologo.png" alt="varejo" id="imgvarejo"></div>
+    </div>
+    <div class=descriptionutilizaçoes>
+      <div class=titlesaude>
+        <h2 id=titlesaude><strong>Saúde</strong></h2>
+      </div>
+      <div class=descriptionutil>
+        <p id=descriptionutil>Acesso seguro com 2FA.</p>
+      </div>
+      <div class=descriptionutil>
+        <p id=descriptionutil>Melhore o agendamento e reduza faltas com lembretes por SMS. </p>
+      </div>
+      <div class=descriptionutil>
+        <p id=descriptionutil> Tokens de autorização para procedimentos com 2FA. </p>
+      </div>
+      <div class=titlelog>
+        <h2 id=titlelog><strong>Logística</strong></h2>
+      </div>
+      <div class=descriptionutil>
+        <p id=descriptionutillog>Acesso seguro com 2FA.</p>
+      </div>
+      <div class=descriptionutil>
+        <p id=descriptionutillog>Uso de números mascarados para proteção de funcionário e cliente.</p>
+      </div>
+      <div class=descriptionutil>
+        <p id=descriptionutillog>Mantenha o cliente informado sobre entrega e serviços.</p>
+      </div>
+      <div class=titlecall>
+        <h2 id=titlecall><strong>Call Center</strong></h2>
+      </div>
+      <div class=descriptionutil>
+        <p id=descriptionutilcall> Melhore taxas de abertura utilizando alertas SMS para confirmações.</p>
+      </div>
+      <div class=descriptionutil>
+        <p id=descriptionutilcall>Economia de números com o uso de um único número máscara por todos os agentes.</p>
+      </div>
+      <div class=titlevarejo>
+        <h2 id=titlevarejo><strong>Varejo</strong></h2>
+      </div>
+      <div class=descriptionutil2>
+        <p id=descriptionutilvarejo1> Compra segura com 2FA.</p>
+      </div>
+      <div class=descriptionutil2>
+        <p id=descriptionutilvarejo2>Avisos sobre compras e entregas.</p>
+      </div>
+      <div class=descriptionutil2>
+        <p id=descriptionutilvarejo3>Upsell com novas ofertas e vantagens via SMS</p>
+      </div>
+    </div>
+  </div>
+  <div class=entreemcontato>
+    <div class=titlecontato>
+      <h1 id=titleentreemcontato><strong>Entre em contato</strong></h1>
+    </div>
+    <div class="horizontal-line3"></div>
+    <div class=faleconosco>
+      <h2 id=faleconosco><strong>Fale conosco</strong></h2>
+    </div>
+    <div class=faleconoscodescription>
+      <p id=faleconoscodescription>Para qualquer informação, dúvida ou comentário:</p>
+
+      <p id=faleconoscodescription>
+        +55 21 3030-1010</p>
+
+      <p id=faleconoscodescription>0800 030 2016</p>
+
+      <p id=faleconoscodescription>suporte@telecall.com</p>
+      <div class=imgcontato>
+        <img src="fotos/CpaaS INDEX/7720441-removebg-preview.png" alt="imgcontato" id="imgcontato">
+      </div>
+
+    </div>
+<!-- Rodapé -->
+  </div>
+  <div class=footer>
+    <footer>
+      <h3>&copy; Projeto Telecall. Todos os direitos reservados.</h3>
+    </footer>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+</html>

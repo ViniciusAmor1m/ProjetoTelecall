@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telecall Login</title>
+  <link rel="stylesheet" href="css/login..css">
+  <script src="js/login.js" defer></script>
+  <script src="js/darkmode.js" defer></script>
+
+  <link rel="shortcut icon" href="fotos/icons/favicon.ico">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!--Scripts-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Nav Bar / Com Booststrap -->
+  <div id="toast" class="hidden"></div>
+  <div id="toast2" class="hidden"></div>
+  <div class = containermenu>
+    <header class="p-3 text-bg-primary fixed-top">
+
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="cpassoqueé.html"  class="nav-link px-2 text-white" id = homee><b>Modavo</b></a></li>
+            <li><a href="registrar-se.html"   class="nav-link px-2 text-white" id = homee><b>Registrar-se</b></a></li>
+            <li><a href="#"  class="nav-link px-2 text-white" id = homee><b>Quem somos?</b></a></li>
+            <li><p class="nav-link px-2 text-white" id = homee><b>Troca de contraste:</b></p></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Dark Mode / Icone Sol/Lua -->
+      <div class = iconsdarklight>
+      <input type="checkbox" name="change-theme" id="change-theme">
+      <label for="change-theme">
+        <i class="bi bi-sun"></i></b>
+        <i class="bi bi-moon"></i>
+      </label>
+      </div>
+    </header>
+    </div>
+
+  <div class=conteúdobody>
+    <div class=containerlogin>
+      <div class="forma">
+        <form id=form>
+          <!-- Label Login -->
+          <div><label for="usuario" id=loginlabel>Login</label></div>
+          <div><input type="text" id=login placeholder="Digite aqui seu login"></div>
+
+          <br>
+          <!-- Label Senha -->
+          <div> <label for="password" id=senhalabel>Senha</label></div>
+          <div> <input type="password" id="senha" name="password" placeholder="Insira sua senha"></div>
+
+          <!-- Botao Enviar -->
+          <div class=enviarbtn><button type="submit" id="Enviar" onclick="validar()" class="enviar"> <b>ACESSAR</b>
+            </button></div>
+        </form>
+      </div>
+
+      <!-- Lista Conteudos -->
+    </div>
+    <div class=conteúdologin>
+      <div class=titleentrar>
+        <h1 id=entrar><b>Entrar</b></h1>
+      </div>
+      <div class=subtitleserviços>
+        <h3 id=subtitleserviços><b>Serviços Modavo</b></h3>
+      </div>
+      <div class=descripitioncadastro>
+        <p id=descriptioncadastro> ✔️ Envio de 2FA - SMS</p>
+      </div>
+      <div class=descripitioncadastro>
+        <p id=descriptioncadastro> ✔️ Envio de 2FA - Voz</p>
+      </div>
+      <div class=descripitioncadastro>
+        <p id=descriptioncadastro> ✔️ Gerenciamento de Campanha - SMS</p>
+      </div>
+      <div class=descripitioncadastro>
+        <p id=descriptioncadastro> ✔️ Gerenciamento de Campanha - Voz</p>
+      </div>
+      <div class=descripitioncadastro>
+        <p id=descriptioncadastro> ✔️ Número Máscara</p>
+      </div>
+    </div>
+    <!-- Imagem Conteudo-->
+    <div class=imgmodavocadastro>
+
+      <div class=imgmodavo>
+        <a href="cpassoqueé.html" target="_blank"><img src="fotos/CpaaS INDEX/modavo.png" alt="modavo" id=imgmodavo></a>
+      </div>
+      <div class=imglogotelecall> <img src="fotos/login/logotelecall-removebg-preview.png" alt="logotelecall"
+          id=imglogotelecall></div>
+      <div class=imglogin> <img src="fotos/login/5191079-removebg-preview.png" id=imglogin></div>
+      <div class=imglogin2> <img src="fotos/login/5995357-removebg-preview.png" id=imglogin2></div>
+    </div>
+    <!-- Rodapé -->
+    <div class=footer>
+      <footer>
+        <h3>&copy; Projeto Telecall. Todos os direitos reservados.</h3>
+      </footer>
+    </div>
+  </div>
+
+
+
+  </div>
+</body>
+
+</html>

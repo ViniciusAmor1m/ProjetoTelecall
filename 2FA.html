@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Verifed Calls - Telecall</title>
+  <link rel="stylesheet" href="css/2FA.css">
+  <link rel="shortcut icon" href="fotos/icons/favicon.ico">
+  <script src="js/darkmode.js" defer></script>
+
+
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+
+  <!--Scripts-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Nav bar / com Bootstrap -->
+  <div class = containermenu>
+    <header class="p-3 text-bg-primary fixed-top">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.html" class="nav-link px-2 text-white" id = homee><b>Home</b></a></li>
+            <li><a href="2FA.html" class="nav-link px-2 text-white" id = faa2><b>2FA</b></a></li>
+            <li><a href="sms.html" class="nav-link px-2 text-white" id = smms><b>Sms</b></a></li>
+            <li><a href="googleverifedcalls.html" class="nav-link px-2 text-white" id = gvvc><b>Google Verifed Calls</b></a></li>
+            <li><a href="NumMascara.html" class="nav-link px-2 text-white" id = nmscc><b>Número Mascara</b></a></li>
+            <li><p class="nav-link px-2 text-white" id = homee><b>Troca de Contraste:</b></p></li>
+          </ul>
+          <div class="text-end">
+            <!-- Botoes Login/Sair-->
+            <a href="login.html">
+              <button type="button" class="btn btn-red" style="background-color: #ffffff;" id = sairbtn onclick="sair()">Sair</button>
+            </a>
+            <button type="button" class="btn btn-red" style="background-color: #ffffff;" id = #logadoo onclick="bemvindo()"></button>
+          </div>
+        </div>
+      </div>
+      <!-- Dark mode / Icone Sol/Lua-->
+      <div class = iconsdarklight>
+        <input type="checkbox" name="change-theme" id="change-theme">
+        <label for="change-theme">
+          <i class="bi bi-sun"></i></b>
+          <i class="bi bi-moon"></i>
+        </label>
+        </div>
+    </header>
+    <!-- Conteudo Site -->
+  <div class=containerbody>
+    <div class=titlegoogleverify>
+      <h1 id="oqueé"><strong>2FA</strong></h1>
+    </div>
+    <div class=subtitle>
+      <h3 id=subtitle><strong>O que é?</strong></h3>
+    </div>
+    <div class=descripitiongoogleverify>
+      <p id=descripitiongoogleverify>é um procedimento de segurança que garante que serão
+        necessários 2 fatores únicos para liberação de uma ação.</p>
+    </div>
+    <div>
+      <p id=descripitiongoogleverify> primeiro fator é a senha que o usuário e o segundo pode ser
+        autenticado via token, via detecção de impressão digital,
+        reconhecimento facial, código enviado via sms, entre outros.
+      </p>
+    </div>
+    <div class=imgtitle>
+      <div class=imgcelular><img src="fotos/2fa/Two factor authentication-amico.png" alt="googleverify" id=celularimg>
+      </div>
+    </div>
+    <div class=hr>
+      <hr>
+    </div>
+    <div class=compatibilidade>
+      <div class=compatibilidadetitle>
+        <h1 id=compatibilidadetitle><strong>O 2FA permite que você:</strong></h1>
+      </div>
+      <div class=compatilista>
+        <ul>
+          <div class=lista1>
+            <li id=lista1> <strong> Envie </strong> uma senha via SMS, voz ou e-mail para autenticação do usuário.</li>
+            </li>
+          </div>
+          <div class=lista2>
+            <li id=lista2><strong> Adicione </strong> uma camada extra de segurança além da senha pessoal</li>
+          </div>
+          <div class=lista3>
+            <li id=lista3><strong> Ofereça </strong>maior segurança para usuários.</li>
+          </div>
+        </ul>
+      </div>
+      <div class=imgcompatib>
+        <img src="fotos/2fa/Two factor authentication-bro.png" alt="compatcel" id=compatibilidadecelular>
+      </div>
+    </div>
+    <div class=hr>
+      <hr>
+    </div>
+    <div class=comofuncionacontain>
+      <div class=comofuncionatitle>
+        <h1 id=comofuncionatitle><strong>Como Funciona?</strong>
+      </div>
+      <div class=imgcontain>
+        <div class=img1><img src="fotos/2fa/comofunciona1.png" alt="img1" id=img1></div>
+        <div class=img2><img src="fotos/2fa/comofunciona2.png" alt="img2" id=img2></div>
+        <div class=img3><img src="fotos/2fa/comofunciona3.png" alt="img3" id=img3></div>
+      </div>
+      <div class=descripitioncomofunciona>
+        <div class=descriptp>
+          <p id=descripitioncomofunciona>Usuário acessa seu site o aplicativo e digita a senha cadastrada para entrar em
+            seu perfil ou completar uma transação.</p>
+        </div>
+        <div class=descriptp2>
+          <p id=descripitioncomofunciona2>A Telecall recebe a tentativa de login e solicita que o usuário insira seu
+            número de telefone para autorizar o acesso.</p>
+        </div>
+        <div class=descriptp3>
+          <p id=descripitioncomofunciona3>Após inserir seu número, a Telecall envia para o usuário por SMS, chamada ou
+            e-mail um código PIN de uso único.
+
+
+            <!-- Conteudo ++ -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class=hr2>
+      <hr>
+    </div>
+    <div class=beneficioscontain>
+      <div class=beneficiostilte>
+        <h1 id=beneficiostitle><strong>Benefícios</strong></h1>
+      </div>
+      <div class=listasbeneficios>
+        <ul>
+          <div class=lista4>
+            <li>
+              <p id=descripitionbenef1>
+
+                Ofereça segurança aprimorada para seus clientes.</p>
+            </li>
+          </div>
+          <div class=lista5>
+            <li>
+              <p id=descripitionbenef2>Reduza casos de fraude e invasões e evite o acesso a dados por invasores.</p>
+            </li>
+          </div>
+          <div class=lista6>
+            <li>
+              <p id=descripitionbenef3>Envio de OTP por meio de vários canais, incluindo SMS, voz ou e-mail.</p>
+            </li>
+          </div>
+          <div class=lista6>
+            <li>
+              <p id=descripitionbenef3>Flexibilidade de canais garante que o usuário conseguirá completar a tarefa
+                desejada mesmo quando tiver problema com um deles.
+                Exemplo: Enviar OTP por SMS, em caso de falha, enviar OTP por chamada de voz, em caso de outra falha,
+                enviar por e-mail.</p>
+            </li>
+          </div>
+          <!-- Imagem Conteudo -->
+        </ul>
+      </div>
+      <div class=imgbeneficios>
+        <img src="fotos/2fa/Two factor authentication-pana.png" alt="imgbeneficios" id=beneficios>
+      </div>
+    </div>
+    <div class=hr3>
+      <hr>
+    </div>
+  </div>
+  <!-- Rodapé Copia-->
+  <div class=footer>
+    <footer>
+      <h3>&copy; Projeto Telecall. Todos os direitos reservados.</h3>
+    </footer>
+  </div>
+
+</body>
+
+</html>
